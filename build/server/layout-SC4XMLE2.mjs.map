@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/pages/Users/nazha/nazha-demos/ice-loader/src/pages/layout.tsx"],
+  "sourcesContent": ["import { Outlet, useData, useConfig, definePageConfig, defineDataLoader } from 'ice';\n\nexport default () => {\n  const data = useData();\n  const config = useConfig();\n\n  console.log('render Layout', 'data', data, 'config', config);\n\n  return (\n    <div>\n      <h1>Layout</h1>\n      <Outlet />\n    </div>\n  );\n};\n\nexport const pageConfig = definePageConfig(() => {\n  return {\n    title: 'Layout',\n    meta: [\n      {\n        name: 'layout-color',\n        content: '#f00',\n      },\n    ],\n    auth: ['admin'],\n  };\n});\n\nexport const dataLoader = defineDataLoader(() => {\n  return new Promise((resolve) => {\n    setTimeout(() => {\n      resolve({\n        layout: true,\n      });\n    }, 1 * 100);\n  });\n});\n"],
+  "mappings": ";;;;;AAgBO,IAAMA,aAAaC,iBAAiB,MAAM;AAC/C,SAAO;IACLC,OAAO;IACPC,MAAM;MACJ;QACEC,MAAM;QACNC,SAAS;MACX;;IAEFC,MAAM;MAAC;;EACT;AACF,CAAA;",
+  "names": ["pageConfig", "definePageConfig", "title", "meta", "name", "content", "auth"]
+}

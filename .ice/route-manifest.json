@@ -1,0 +1,78 @@
+[
+  {
+    "id": "layout",
+    "file": "layout.tsx",
+    "componentName": "layout",
+    "layout": true,
+    "exports": [
+      "dataLoader",
+      "default",
+      "pageConfig"
+    ],
+    "children": [
+      {
+        "path": "about",
+        "id": "about/layout",
+        "parentId": "layout",
+        "file": "about/layout.tsx",
+        "componentName": "about-layout",
+        "layout": true,
+        "exports": [
+          "dataLoader",
+          "default"
+        ],
+        "children": [
+          {
+            "path": "another",
+            "id": "about/another",
+            "parentId": "about/layout",
+            "file": "about/another.tsx",
+            "componentName": "about-another",
+            "layout": false,
+            "exports": [
+              "dataLoader",
+              "default"
+            ]
+          },
+          {
+            "index": true,
+            "id": "about/index",
+            "parentId": "about/layout",
+            "file": "about/index.tsx",
+            "componentName": "about-index",
+            "layout": false,
+            "exports": [
+              "dataLoader",
+              "default"
+            ]
+          }
+        ]
+      },
+      {
+        "index": true,
+        "id": "index",
+        "parentId": "layout",
+        "file": "index.tsx",
+        "componentName": "index",
+        "layout": false,
+        "exports": [
+          "dataLoader",
+          "default",
+          "pageConfig"
+        ]
+      },
+      {
+        "path": "blog",
+        "id": "blog",
+        "parentId": "layout",
+        "file": "blog.tsx",
+        "componentName": "blog",
+        "layout": false,
+        "exports": [
+          "default",
+          "pageConfig"
+        ]
+      }
+    ]
+  }
+]

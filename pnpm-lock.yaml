@@ -1,0 +1,3252 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@ice/app': '*'
+  '@ice/plugin-auth': '*'
+  '@ice/runtime': '*'
+  '@types/react': ^18.0.0
+  '@types/react-dom': ^18.0.0
+  antd-mobile: ^5.12.6
+  react: ^18.0.0
+  react-dom: ^18.0.0
+  speed-measure-webpack-plugin: ^1.5.0
+  webpack: ^5.73.0
+
+dependencies:
+  '@ice/app': npm.urbanic-inc.com/@ice/app/3.0.2_biqbaboplfbrettd7655fr4n2y
+  '@ice/plugin-auth': npm.urbanic-inc.com/@ice/plugin-auth/1.0.0_biqbaboplfbrettd7655fr4n2y
+  '@ice/runtime': npm.urbanic-inc.com/@ice/runtime/1.0.2_biqbaboplfbrettd7655fr4n2y
+  antd-mobile: npm.urbanic-inc.com/antd-mobile/5.27.0_biqbaboplfbrettd7655fr4n2y
+  react: npm.urbanic-inc.com/react/18.2.0
+  react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+
+devDependencies:
+  '@types/react': npm.urbanic-inc.com/@types/react/18.0.26
+  '@types/react-dom': npm.urbanic-inc.com/@types/react-dom/18.0.9
+  speed-measure-webpack-plugin: npm.urbanic-inc.com/speed-measure-webpack-plugin/1.5.0_webpack@5.75.0
+  webpack: npm.urbanic-inc.com/webpack/5.75.0
+
+packages:
+
+  /@nodelib/fs.scandir/2.1.5:
+    resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
+    engines: {node: '>= 8'}
+    dependencies:
+      '@nodelib/fs.stat': npm.urbanic-inc.com/@nodelib/fs.stat/2.0.5
+      run-parallel: npm.urbanic-inc.com/run-parallel/1.2.0
+    dev: false
+
+  /@webassemblyjs/ast/1.11.1:
+    resolution: {integrity: sha512-ukBh14qFLjxTQNTXocdyksN5QdM28S1CxHt2rdskFyL+xFV7VremuBLVbmCePj+URalXBENx/9Lm7lnhihtCSw==}
+    dependencies:
+      '@webassemblyjs/helper-numbers': 1.11.1
+      '@webassemblyjs/helper-wasm-bytecode': 1.11.1
+    dev: true
+
+  /@webassemblyjs/floating-point-hex-parser/1.11.1:
+    resolution: {integrity: sha512-iGRfyc5Bq+NnNuX8b5hwBrRjzf0ocrJPI6GWFodBFzmFnyvrQ83SHKhmilCU/8Jv67i4GJZBMhEzltxzcNagtQ==}
+    dev: true
+
+  /@webassemblyjs/helper-api-error/1.11.1:
+    resolution: {integrity: sha512-RlhS8CBCXfRUR/cwo2ho9bkheSXG0+NwooXcc3PAILALf2QLdFyj7KGsKRbVc95hZnhnERon4kW/D3SZpp6Tcg==}
+    dev: true
+
+  /@webassemblyjs/helper-buffer/1.11.1:
+    resolution: {integrity: sha512-gwikF65aDNeeXa8JxXa2BAk+REjSyhrNC9ZwdT0f8jc4dQQeDQ7G4m0f2QCLPJiMTTO6wfDmRmj/pW0PsUvIcA==}
+    dev: true
+
+  /@webassemblyjs/helper-numbers/1.11.1:
+    resolution: {integrity: sha512-vDkbxiB8zfnPdNK9Rajcey5C0w+QJugEglN0of+kmO8l7lDb77AnlKYQF7aarZuCrv+l0UvqL+68gSDr3k9LPQ==}
+    dependencies:
+      '@webassemblyjs/floating-point-hex-parser': 1.11.1
+      '@webassemblyjs/helper-api-error': 1.11.1
+      '@xtuc/long': 4.2.2
+    dev: true
+
+  /@webassemblyjs/helper-wasm-bytecode/1.11.1:
+    resolution: {integrity: sha512-PvpoOGiJwXeTrSf/qfudJhwlvDQxFgelbMqtq52WWiXC6Xgg1IREdngmPN3bs4RoO83PnL/nFrxucXj1+BX62Q==}
+    dev: true
+
+  /@webassemblyjs/helper-wasm-section/1.11.1:
+    resolution: {integrity: sha512-10P9No29rYX1j7F3EVPX3JvGPQPae+AomuSTPiF9eBQeChHI6iqjMIwR9JmOJXwpnn/oVGDk7I5IlskuMwU/pg==}
+    dependencies:
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/helper-buffer': 1.11.1
+      '@webassemblyjs/helper-wasm-bytecode': 1.11.1
+      '@webassemblyjs/wasm-gen': 1.11.1
+    dev: true
+
+  /@webassemblyjs/ieee754/1.11.1:
+    resolution: {integrity: sha512-hJ87QIPtAMKbFq6CGTkZYJivEwZDbQUgYd3qKSadTNOhVY7p+gfP6Sr0lLRVTaG1JjFj+r3YchoqRYxNH3M0GQ==}
+    dependencies:
+      '@xtuc/ieee754': npm.urbanic-inc.com/@xtuc/ieee754/1.2.0
+    dev: true
+
+  /@webassemblyjs/leb128/1.11.1:
+    resolution: {integrity: sha512-BJ2P0hNZ0u+Th1YZXJpzW6miwqQUGcIHT1G/sf72gLVD9DZ5AdYTqPNbHZh6K1M5VmKvFXwGSWZADz+qBWxeRw==}
+    dependencies:
+      '@xtuc/long': 4.2.2
+    dev: true
+
+  /@webassemblyjs/utf8/1.11.1:
+    resolution: {integrity: sha512-9kqcxAEdMhiwQkHpkNiorZzqpGrodQQ2IGrHHxCy+Ozng0ofyMA0lTqiLkVs1uzTRejX+/O0EOT7KxqVPuXosQ==}
+    dev: true
+
+  /@webassemblyjs/wasm-edit/1.11.1:
+    resolution: {integrity: sha512-g+RsupUC1aTHfR8CDgnsVRVZFJqdkFHpsHMfJuWQzWU3tvnLC07UqHICfP+4XyL2tnr1amvl1Sdp06TnYCmVkA==}
+    dependencies:
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/helper-buffer': 1.11.1
+      '@webassemblyjs/helper-wasm-bytecode': 1.11.1
+      '@webassemblyjs/helper-wasm-section': 1.11.1
+      '@webassemblyjs/wasm-gen': 1.11.1
+      '@webassemblyjs/wasm-opt': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.1
+      '@webassemblyjs/wast-printer': 1.11.1
+    dev: true
+
+  /@webassemblyjs/wasm-gen/1.11.1:
+    resolution: {integrity: sha512-F7QqKXwwNlMmsulj6+O7r4mmtAlCWfO/0HdgOxSklZfQcDu0TpLiD1mRt/zF25Bk59FIjEuGAIyn5ei4yMfLhA==}
+    dependencies:
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/helper-wasm-bytecode': 1.11.1
+      '@webassemblyjs/ieee754': 1.11.1
+      '@webassemblyjs/leb128': 1.11.1
+      '@webassemblyjs/utf8': 1.11.1
+    dev: true
+
+  /@webassemblyjs/wasm-opt/1.11.1:
+    resolution: {integrity: sha512-VqnkNqnZlU5EB64pp1l7hdm3hmQw7Vgqa0KF/KCNO9sIpI6Fk6brDEiX+iCOYrvMuBWDws0NkTOxYEb85XQHHw==}
+    dependencies:
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/helper-buffer': 1.11.1
+      '@webassemblyjs/wasm-gen': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.1
+    dev: true
+
+  /@webassemblyjs/wasm-parser/1.11.1:
+    resolution: {integrity: sha512-rrBujw+dJu32gYB7/Lup6UhdkPx9S9SnobZzRVL7VcBH9Bt9bCBLEuX/YXOOtBsOZ4NQrRykKhffRWHvigQvOA==}
+    dependencies:
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/helper-api-error': 1.11.1
+      '@webassemblyjs/helper-wasm-bytecode': 1.11.1
+      '@webassemblyjs/ieee754': 1.11.1
+      '@webassemblyjs/leb128': 1.11.1
+      '@webassemblyjs/utf8': 1.11.1
+    dev: true
+
+  /@webassemblyjs/wast-printer/1.11.1:
+    resolution: {integrity: sha512-IQboUWM4eKzWW+N/jij2sRatKMh99QEelo3Eb2q0qXkvPRISAj8Qxtmw5itwqK+TTkBuUIE45AxYPToqPtL5gg==}
+    dependencies:
+      '@webassemblyjs/ast': 1.11.1
+      '@xtuc/long': 4.2.2
+    dev: true
+
+  /@xtuc/long/4.2.2:
+    resolution: {integrity: sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==}
+    dev: true
+
+  /concat-map/0.0.1:
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    dev: false
+
+  npm.urbanic-inc.com/@babel/code-frame/7.18.6:
+    resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fcode-frame/-/code-frame-7.18.6.tgz}
+    name: '@babel/code-frame'
+    version: 7.18.6
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/highlight': npm.urbanic-inc.com/@babel/highlight/7.18.6
+    dev: false
+
+  npm.urbanic-inc.com/@babel/generator/7.18.10:
+    resolution: {integrity: sha512-0+sW7e3HjQbiHbj1NeU/vN8ornohYlacAfZIaXhdoGweQqgcNy69COVciYYqEXJ/v+9OBA7Frxm4CVAuNqKeNA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fgenerator/-/generator-7.18.10.tgz}
+    name: '@babel/generator'
+    version: 7.18.10
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.18.10
+      '@jridgewell/gen-mapping': npm.urbanic-inc.com/@jridgewell/gen-mapping/0.3.2
+      jsesc: npm.urbanic-inc.com/jsesc/2.5.2
+    dev: false
+
+  npm.urbanic-inc.com/@babel/helper-environment-visitor/7.18.9:
+    resolution: {integrity: sha512-3r/aACDJ3fhQ/EVgFy0hpj8oHyHpQc+LPtJoY9SzTThAsStm4Ptegq92vqKoE3vD706ZVFWITnMnxucw+S9Ipg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhelper-environment-visitor/-/helper-environment-visitor-7.18.9.tgz}
+    name: '@babel/helper-environment-visitor'
+    version: 7.18.9
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  npm.urbanic-inc.com/@babel/helper-function-name/7.19.0:
+    resolution: {integrity: sha512-WAwHBINyrpqywkUH0nTnNgI5ina5TFn85HKS0pbPDfxFfhyR/aNQEn4hGi1P1JyT//I0t4OgXUlofzWILRvS5w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhelper-function-name/-/helper-function-name-7.19.0.tgz}
+    name: '@babel/helper-function-name'
+    version: 7.19.0
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/template': npm.urbanic-inc.com/@babel/template/7.18.10
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.20.5
+    dev: false
+
+  npm.urbanic-inc.com/@babel/helper-hoist-variables/7.18.6:
+    resolution: {integrity: sha512-UlJQPkFqFULIcyW5sbzgbkxn2FKRgwWiRexcuaR8RNJRy8+LLveqPjwZV/bwrLZCN0eUHD/x8D0heK1ozuoo6Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhelper-hoist-variables/-/helper-hoist-variables-7.18.6.tgz}
+    name: '@babel/helper-hoist-variables'
+    version: 7.18.6
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.18.10
+    dev: false
+
+  npm.urbanic-inc.com/@babel/helper-split-export-declaration/7.18.6:
+    resolution: {integrity: sha512-bde1etTx6ZyTmobl9LLMMQsaizFVZrquTEHOqKeQESMKo4PlObf+8+JA25ZsIpZhT/WEd39+vOdLXAFG/nELpA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhelper-split-export-declaration/-/helper-split-export-declaration-7.18.6.tgz}
+    name: '@babel/helper-split-export-declaration'
+    version: 7.18.6
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.18.10
+    dev: false
+
+  npm.urbanic-inc.com/@babel/helper-string-parser/7.19.4:
+    resolution: {integrity: sha512-nHtDoQcuqFmwYNYPz3Rah5ph2p8PFeFCsZk9A/48dPc/rGocJ5J3hAAZ7pb76VWX3fZKu+uEr/FhH5jLx7umrw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhelper-string-parser/-/helper-string-parser-7.19.4.tgz}
+    name: '@babel/helper-string-parser'
+    version: 7.19.4
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  npm.urbanic-inc.com/@babel/helper-validator-identifier/7.19.1:
+    resolution: {integrity: sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhelper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz}
+    name: '@babel/helper-validator-identifier'
+    version: 7.19.1
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  npm.urbanic-inc.com/@babel/highlight/7.18.6:
+    resolution: {integrity: sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fhighlight/-/highlight-7.18.6.tgz}
+    name: '@babel/highlight'
+    version: 7.18.6
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': npm.urbanic-inc.com/@babel/helper-validator-identifier/7.19.1
+      chalk: npm.urbanic-inc.com/chalk/2.4.2
+      js-tokens: npm.urbanic-inc.com/js-tokens/4.0.0
+    dev: false
+
+  npm.urbanic-inc.com/@babel/parser/7.18.10:
+    resolution: {integrity: sha512-TYk3OA0HKL6qNryUayb5UUEhM/rkOQozIBEA5ITXh5DWrSp0TlUQXMyZmnWxG/DizSWBeeQ0Zbc5z8UGaaqoeg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fparser/-/parser-7.18.10.tgz}
+    name: '@babel/parser'
+    version: 7.18.10
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+    dependencies:
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.18.10
+    dev: false
+
+  npm.urbanic-inc.com/@babel/runtime/7.20.6:
+    resolution: {integrity: sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2fruntime/-/runtime-7.20.6.tgz}
+    name: '@babel/runtime'
+    version: 7.20.6
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: npm.urbanic-inc.com/regenerator-runtime/0.13.11
+    dev: false
+
+  npm.urbanic-inc.com/@babel/template/7.18.10:
+    resolution: {integrity: sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2ftemplate/-/template-7.18.10.tgz}
+    name: '@babel/template'
+    version: 7.18.10
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/code-frame': npm.urbanic-inc.com/@babel/code-frame/7.18.6
+      '@babel/parser': npm.urbanic-inc.com/@babel/parser/7.18.10
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.20.5
+    dev: false
+
+  npm.urbanic-inc.com/@babel/traverse/7.18.10:
+    resolution: {integrity: sha512-J7ycxg0/K9XCtLyHf0cz2DqDihonJeIo+z+HEdRe9YuT8TY4A66i+Ab2/xZCEW7Ro60bPCBBfqqboHSamoV3+g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2ftraverse/-/traverse-7.18.10.tgz}
+    name: '@babel/traverse'
+    version: 7.18.10
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/code-frame': npm.urbanic-inc.com/@babel/code-frame/7.18.6
+      '@babel/generator': npm.urbanic-inc.com/@babel/generator/7.18.10
+      '@babel/helper-environment-visitor': npm.urbanic-inc.com/@babel/helper-environment-visitor/7.18.9
+      '@babel/helper-function-name': npm.urbanic-inc.com/@babel/helper-function-name/7.19.0
+      '@babel/helper-hoist-variables': npm.urbanic-inc.com/@babel/helper-hoist-variables/7.18.6
+      '@babel/helper-split-export-declaration': npm.urbanic-inc.com/@babel/helper-split-export-declaration/7.18.6
+      '@babel/parser': npm.urbanic-inc.com/@babel/parser/7.18.10
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.18.10
+      debug: npm.urbanic-inc.com/debug/4.3.4
+      globals: npm.urbanic-inc.com/globals/11.12.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/@babel/types/7.18.10:
+    resolution: {integrity: sha512-MJvnbEiiNkpjo+LknnmRrqbY1GPUUggjv+wQVjetM/AONoupqRALB7I6jGqNUAZsKcRIEu2J6FRFvsczljjsaQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2ftypes/-/types-7.18.10.tgz}
+    name: '@babel/types'
+    version: 7.18.10
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': npm.urbanic-inc.com/@babel/helper-string-parser/7.19.4
+      '@babel/helper-validator-identifier': npm.urbanic-inc.com/@babel/helper-validator-identifier/7.19.1
+      to-fast-properties: npm.urbanic-inc.com/to-fast-properties/2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/@babel/types/7.20.5:
+    resolution: {integrity: sha512-c9fst/h2/dcF7H+MJKZ2T0KjEQ8hY/BNnDk/H3XY8C4Aw/eWQXWn/lWntHF9ooUBnGmEvbfGrTgLWc+um0YDUg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@babel%2ftypes/-/types-7.20.5.tgz}
+    name: '@babel/types'
+    version: 7.20.5
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': npm.urbanic-inc.com/@babel/helper-string-parser/7.19.4
+      '@babel/helper-validator-identifier': npm.urbanic-inc.com/@babel/helper-validator-identifier/7.19.1
+      to-fast-properties: npm.urbanic-inc.com/to-fast-properties/2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/@esbuild/linux-loong64/0.14.54:
+    resolution: {integrity: sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@esbuild%2flinux-loong64/-/linux-loong64-0.14.54.tgz}
+    name: '@esbuild/linux-loong64'
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@floating-ui/core/1.0.4:
+    resolution: {integrity: sha512-FPFLbg2b06MIw1dqk2SOEMAMX3xlrreGjcui5OTxfBDtaKTmh0kioOVjT8gcfl58juawL/yF+S+gnq8aUYQx/Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@floating-ui%2fcore/-/core-1.0.4.tgz}
+    name: '@floating-ui/core'
+    version: 1.0.4
+    dev: false
+
+  npm.urbanic-inc.com/@floating-ui/dom/1.0.10:
+    resolution: {integrity: sha512-ZRe5ZmtGYCd82zrjWnnMW8hN5H1otedLh0Ur6rRo6f0exbEe6IlkVvo1RO7tgiMvbF0Df8hkhdm50VcVYqwP6g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@floating-ui%2fdom/-/dom-1.0.10.tgz}
+    name: '@floating-ui/dom'
+    version: 1.0.10
+    dependencies:
+      '@floating-ui/core': npm.urbanic-inc.com/@floating-ui/core/1.0.4
+    dev: false
+
+  npm.urbanic-inc.com/@ice/app/3.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Tjvm0SotuwokSJwCNie1zBJREzWKMRjD6ILAl9wWaTOBRYTmnq3R15EIMPkBNOkvQLCg2eRlZqQ9moJMbX57+w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fapp/-/app-3.0.2.tgz}
+    id: npm.urbanic-inc.com/@ice/app/3.0.2
+    name: '@ice/app'
+    version: 3.0.2
+    engines: {node: '>=14.19.0', npm: '>=3.0.0'}
+    hasBin: true
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      '@babel/generator': npm.urbanic-inc.com/@babel/generator/7.18.10
+      '@babel/parser': npm.urbanic-inc.com/@babel/parser/7.18.10
+      '@babel/traverse': npm.urbanic-inc.com/@babel/traverse/7.18.10
+      '@babel/types': npm.urbanic-inc.com/@babel/types/7.18.10
+      '@ice/bundles': npm.urbanic-inc.com/@ice/bundles/0.1.1
+      '@ice/route-manifest': npm.urbanic-inc.com/@ice/route-manifest/1.0.0
+      '@ice/runtime': npm.urbanic-inc.com/@ice/runtime/1.0.2_biqbaboplfbrettd7655fr4n2y
+      '@ice/webpack-config': npm.urbanic-inc.com/@ice/webpack-config/1.0.2
+      '@swc/helpers': npm.urbanic-inc.com/@swc/helpers/0.4.12
+      '@types/express': npm.urbanic-inc.com/@types/express/4.17.14
+      address: npm.urbanic-inc.com/address/1.2.1
+      build-scripts: npm.urbanic-inc.com/build-scripts/2.0.0
+      chalk: npm.urbanic-inc.com/chalk/4.1.2
+      commander: npm.urbanic-inc.com/commander/9.4.1
+      consola: npm.urbanic-inc.com/consola/2.15.3
+      core-js: npm.urbanic-inc.com/core-js/3.26.0
+      cross-spawn: npm.urbanic-inc.com/cross-spawn/7.0.3
+      detect-port: npm.urbanic-inc.com/detect-port/1.5.1
+      dotenv: npm.urbanic-inc.com/dotenv/16.0.3
+      dotenv-expand: npm.urbanic-inc.com/dotenv-expand/8.0.3
+      ejs: npm.urbanic-inc.com/ejs/3.1.8
+      esbuild: npm.urbanic-inc.com/esbuild/0.14.54
+      esbuild-register: npm.urbanic-inc.com/esbuild-register/3.4.1_esbuild@0.14.54
+      fast-glob: npm.urbanic-inc.com/fast-glob/3.2.12
+      find-up: npm.urbanic-inc.com/find-up/5.0.0
+      fs-extra: npm.urbanic-inc.com/fs-extra/10.1.0
+      micromatch: npm.urbanic-inc.com/micromatch/4.0.5
+      mrmime: npm.urbanic-inc.com/mrmime/1.0.1
+      open: npm.urbanic-inc.com/open/8.4.0
+      path-to-regexp: npm.urbanic-inc.com/path-to-regexp/6.2.1
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+      regenerator-runtime: npm.urbanic-inc.com/regenerator-runtime/0.13.11
+      resolve.exports: npm.urbanic-inc.com/resolve.exports/1.1.0
+      semver: npm.urbanic-inc.com/semver/7.3.8
+      temp: npm.urbanic-inc.com/temp/0.9.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/@ice/bundles/0.1.1:
+    resolution: {integrity: sha512-6p5mMUZEiOCUCmS/08/CZvCJyKWfigC6WpB8OiM4cfqjcsD6doKAB+tCCLO/cO1AxR2+ACz+KPsnnmyt8MnHXg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fbundles/-/bundles-0.1.1.tgz}
+    name: '@ice/bundles'
+    version: 0.1.1
+    dependencies:
+      '@ice/swc-plugin-keep-export': npm.urbanic-inc.com/@ice/swc-plugin-keep-export/0.1.3
+      '@ice/swc-plugin-keep-platform': npm.urbanic-inc.com/@ice/swc-plugin-keep-platform/0.1.2
+      '@ice/swc-plugin-remove-export': npm.urbanic-inc.com/@ice/swc-plugin-remove-export/0.1.2
+      '@swc/core': npm.urbanic-inc.com/@swc/core/1.3.19
+      ansi-html-community: npm.urbanic-inc.com/ansi-html-community/0.0.8
+      caniuse-lite: npm.urbanic-inc.com/caniuse-lite/1.0.30001439
+      chokidar: npm.urbanic-inc.com/chokidar/3.5.3
+      core-js: npm.urbanic-inc.com/core-js/3.26.0
+      core-js-pure: npm.urbanic-inc.com/core-js-pure/3.26.1
+      error-stack-parser: npm.urbanic-inc.com/error-stack-parser/2.1.4
+      events: npm.urbanic-inc.com/events/3.3.0
+      html-entities: npm.urbanic-inc.com/html-entities/2.3.3
+      jest-worker: npm.urbanic-inc.com/jest-worker/27.5.1
+      less: npm.urbanic-inc.com/less/4.1.2
+      postcss: npm.urbanic-inc.com/postcss/8.4.12
+      react-refresh: npm.urbanic-inc.com/react-refresh/0.14.0
+      sass: npm.urbanic-inc.com/sass/1.50.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/@ice/jsx-runtime/0.1.0_react@18.2.0:
+    resolution: {integrity: sha512-g+OpAoQ3RNg1vwTKKiPUVh8ZzKM2YCmLdgaoOT+gU1Vft4F5rGEB1Fya8zrHAWxErwsC5dwmDEfL3fPY9GCIOw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fjsx-runtime/-/jsx-runtime-0.1.0.tgz}
+    id: npm.urbanic-inc.com/@ice/jsx-runtime/0.1.0
+    name: '@ice/jsx-runtime'
+    version: 0.1.0
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+    dependencies:
+      react: npm.urbanic-inc.com/react/18.2.0
+      style-unit: npm.urbanic-inc.com/style-unit/3.0.5
+    dev: false
+
+  npm.urbanic-inc.com/@ice/plugin-auth/1.0.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-FKldwepUPyIntG3Ql1l1Affzno53dbif7u1wNVxzHBTaSHK3xwg7c10gYNQTdStdDtDNSMq8wl+7mu6UGPzgRA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fplugin-auth/-/plugin-auth-1.0.0.tgz}
+    id: npm.urbanic-inc.com/@ice/plugin-auth/1.0.0
+    name: '@ice/plugin-auth'
+    version: 1.0.0
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/@ice/route-manifest/1.0.0:
+    resolution: {integrity: sha512-GqtQHYxwuaJ/pcBCZT9XUAlDDKYYnzkYILOnLdeqzfKicCVUWto5oTEZzSSvREU7EJSvWjcfKEaKimBOPIqKIw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2froute-manifest/-/route-manifest-1.0.0.tgz}
+    name: '@ice/route-manifest'
+    version: 1.0.0
+    dependencies:
+      minimatch: npm.urbanic-inc.com/minimatch/5.1.1
+    dev: false
+
+  npm.urbanic-inc.com/@ice/runtime/1.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-p/FK6cT5YU+stgLysrrsJ8G5WlbnkLqVFpXmFJc/QpXxDUl/QXF7fGrnXu+oQLTwGwsTaQ2vXMw3C6aYaMlnXw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fruntime/-/runtime-1.0.2.tgz}
+    id: npm.urbanic-inc.com/@ice/runtime/1.0.2
+    name: '@ice/runtime'
+    version: 1.0.2
+    peerDependencies:
+      react: ^18.1.0
+      react-dom: ^18.1.0
+    dependencies:
+      '@ice/jsx-runtime': npm.urbanic-inc.com/@ice/jsx-runtime/0.1.0_react@18.2.0
+      history: npm.urbanic-inc.com/history/5.3.0
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+      react-router-dom: npm.urbanic-inc.com/react-router-dom/6.4.5_biqbaboplfbrettd7655fr4n2y
+    dev: false
+
+  npm.urbanic-inc.com/@ice/swc-plugin-keep-export/0.1.3:
+    resolution: {integrity: sha512-KYlF/fE7LoVjWalGIPOateg3kmEQfTi3wxtGqzviIROu6GqDwd7jdYrzkR36E0N9KW40sqhAMM4dxNux+28+Lg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fswc-plugin-keep-export/-/swc-plugin-keep-export-0.1.3.tgz}
+    name: '@ice/swc-plugin-keep-export'
+    version: 0.1.3
+    dev: false
+
+  npm.urbanic-inc.com/@ice/swc-plugin-keep-platform/0.1.2:
+    resolution: {integrity: sha512-B6nXb9mB7J5V8iSmCPku4c/EGArIsK8rS4pzMfjHwneewfU0n4DMjz2BsGaCCYrTz2SXdQxW44TKQ3JrovLMtA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fswc-plugin-keep-platform/-/swc-plugin-keep-platform-0.1.2.tgz}
+    name: '@ice/swc-plugin-keep-platform'
+    version: 0.1.2
+    dev: false
+
+  npm.urbanic-inc.com/@ice/swc-plugin-remove-export/0.1.2:
+    resolution: {integrity: sha512-HPeYj+z1ylaD5fJkSqyJ+eXbrHiCdy/t/t56uyf20aqsAyx12EiHVnfV4blW31DSWhFt/veAUXYzbaJ8b9KLOQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fswc-plugin-remove-export/-/swc-plugin-remove-export-0.1.2.tgz}
+    name: '@ice/swc-plugin-remove-export'
+    version: 0.1.2
+    dev: false
+
+  npm.urbanic-inc.com/@ice/webpack-config/1.0.2:
+    resolution: {integrity: sha512-KdLDUZIcFETB4oUbwmHFTjXKRmucOD5mXXOmVfSvYHlieWBDN4yWKFPOVPZDgIp/mQSsWNeZBpW8E2t3I9KwNg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@ice%2fwebpack-config/-/webpack-config-1.0.2.tgz}
+    name: '@ice/webpack-config'
+    version: 1.0.2
+    dependencies:
+      '@ice/bundles': npm.urbanic-inc.com/@ice/bundles/0.1.1
+      '@rollup/pluginutils': npm.urbanic-inc.com/@rollup/pluginutils/4.2.1
+      consola: npm.urbanic-inc.com/consola/2.15.3
+      fast-glob: npm.urbanic-inc.com/fast-glob/3.2.12
+      process: npm.urbanic-inc.com/process/0.11.10
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/@jridgewell/gen-mapping/0.3.2:
+    resolution: {integrity: sha512-mh65xKQAzI6iBcFzwv28KVWSmCkdRBWoOh+bYQGW3+6OZvbbN3TqMGo5hqYxQniRcH9F2VZIoJCm4pa3BPDK/A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@jridgewell%2fgen-mapping/-/gen-mapping-0.3.2.tgz}
+    name: '@jridgewell/gen-mapping'
+    version: 0.3.2
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      '@jridgewell/set-array': npm.urbanic-inc.com/@jridgewell/set-array/1.1.2
+      '@jridgewell/sourcemap-codec': npm.urbanic-inc.com/@jridgewell/sourcemap-codec/1.4.14
+      '@jridgewell/trace-mapping': npm.urbanic-inc.com/@jridgewell/trace-mapping/0.3.17
+
+  npm.urbanic-inc.com/@jridgewell/resolve-uri/3.1.0:
+    resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@jridgewell%2fresolve-uri/-/resolve-uri-3.1.0.tgz}
+    name: '@jridgewell/resolve-uri'
+    version: 3.1.0
+    engines: {node: '>=6.0.0'}
+
+  npm.urbanic-inc.com/@jridgewell/set-array/1.1.2:
+    resolution: {integrity: sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@jridgewell%2fset-array/-/set-array-1.1.2.tgz}
+    name: '@jridgewell/set-array'
+    version: 1.1.2
+    engines: {node: '>=6.0.0'}
+
+  npm.urbanic-inc.com/@jridgewell/source-map/0.3.2:
+    resolution: {integrity: sha512-m7O9o2uR8k2ObDysZYzdfhb08VuEml5oWGiosa1VdaPZ/A6QyPkAJuwN0Q1lhULOf6B7MtQmHENS743hWtCrgw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@jridgewell%2fsource-map/-/source-map-0.3.2.tgz}
+    name: '@jridgewell/source-map'
+    version: 0.3.2
+    dependencies:
+      '@jridgewell/gen-mapping': npm.urbanic-inc.com/@jridgewell/gen-mapping/0.3.2
+      '@jridgewell/trace-mapping': npm.urbanic-inc.com/@jridgewell/trace-mapping/0.3.17
+    dev: true
+
+  npm.urbanic-inc.com/@jridgewell/sourcemap-codec/1.4.14:
+    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@jridgewell%2fsourcemap-codec/-/sourcemap-codec-1.4.14.tgz}
+    name: '@jridgewell/sourcemap-codec'
+    version: 1.4.14
+
+  npm.urbanic-inc.com/@jridgewell/trace-mapping/0.3.17:
+    resolution: {integrity: sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@jridgewell%2ftrace-mapping/-/trace-mapping-0.3.17.tgz}
+    name: '@jridgewell/trace-mapping'
+    version: 0.3.17
+    dependencies:
+      '@jridgewell/resolve-uri': npm.urbanic-inc.com/@jridgewell/resolve-uri/3.1.0
+      '@jridgewell/sourcemap-codec': npm.urbanic-inc.com/@jridgewell/sourcemap-codec/1.4.14
+
+  npm.urbanic-inc.com/@nodelib/fs.stat/2.0.5:
+    resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@nodelib%2ffs.stat/-/fs.stat-2.0.5.tgz}
+    name: '@nodelib/fs.stat'
+    version: 2.0.5
+    engines: {node: '>= 8'}
+    dev: false
+
+  npm.urbanic-inc.com/@nodelib/fs.walk/1.2.8:
+    resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@nodelib%2ffs.walk/-/fs.walk-1.2.8.tgz}
+    name: '@nodelib/fs.walk'
+    version: 1.2.8
+    engines: {node: '>= 8'}
+    dependencies:
+      '@nodelib/fs.scandir': 2.1.5
+      fastq: npm.urbanic-inc.com/fastq/1.14.0
+    dev: false
+
+  npm.urbanic-inc.com/@rc-component/mini-decimal/1.0.1:
+    resolution: {integrity: sha512-9N8nRk0oKj1qJzANKl+n9eNSMUGsZtjwNuDCiZ/KA+dt1fE3zq5x2XxclRcAbOIXnZcJ53ozP2Pa60gyELXagA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@rc-component%2fmini-decimal/-/mini-decimal-1.0.1.tgz}
+    name: '@rc-component/mini-decimal'
+    version: 1.0.1
+    engines: {node: '>=8.x'}
+    dependencies:
+      '@babel/runtime': npm.urbanic-inc.com/@babel/runtime/7.20.6
+    dev: false
+
+  npm.urbanic-inc.com/@react-spring/animated/9.6.0_react@18.2.0:
+    resolution: {integrity: sha512-YFBLQ3bnGlUaWA9eVcZ7K1nfgVSF30XPfwqag5hlswYcMi7C5zVriFqN4oxRyDAFHfmNpPfFCRHmgP52L3GF1A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@react-spring%2fanimated/-/animated-9.6.0.tgz}
+    id: npm.urbanic-inc.com/@react-spring/animated/9.6.0
+    name: '@react-spring/animated'
+    version: 9.6.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/shared': npm.urbanic-inc.com/@react-spring/shared/9.6.0_react@18.2.0
+      '@react-spring/types': npm.urbanic-inc.com/@react-spring/types/9.6.0
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/@react-spring/core/9.6.0_react@18.2.0:
+    resolution: {integrity: sha512-CCU6MOp6Hk29qFhC+8/Hty5Rh8b4TcHvLjFX1GP9i2iXvw77WayRyy+Wi+KCt+RD+xXO2fi9bNWcloOHPHJp/g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@react-spring%2fcore/-/core-9.6.0.tgz}
+    id: npm.urbanic-inc.com/@react-spring/core/9.6.0
+    name: '@react-spring/core'
+    version: 9.6.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/animated': npm.urbanic-inc.com/@react-spring/animated/9.6.0_react@18.2.0
+      '@react-spring/rafz': npm.urbanic-inc.com/@react-spring/rafz/9.6.0
+      '@react-spring/shared': npm.urbanic-inc.com/@react-spring/shared/9.6.0_react@18.2.0
+      '@react-spring/types': npm.urbanic-inc.com/@react-spring/types/9.6.0
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/@react-spring/rafz/9.6.0:
+    resolution: {integrity: sha512-Vw8IwWXWEMszef8V/yemSR8YZe4cbX84JrMMuW+UE5Ha1/mOCznlFU59fKJxQQA/UJlfY70K9oZ+aboFgWWk0g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@react-spring%2frafz/-/rafz-9.6.0.tgz}
+    name: '@react-spring/rafz'
+    version: 9.6.0
+    dev: false
+
+  npm.urbanic-inc.com/@react-spring/shared/9.6.0_react@18.2.0:
+    resolution: {integrity: sha512-Kama7SJiAajZsjfTJAxLDndxeYr0Qin6Ust9Wn/gRCVC1maXJ79Su0gsQYapSA0+Nmkxdi+RiXJUDmGX6LMuuw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@react-spring%2fshared/-/shared-9.6.0.tgz}
+    id: npm.urbanic-inc.com/@react-spring/shared/9.6.0
+    name: '@react-spring/shared'
+    version: 9.6.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/rafz': npm.urbanic-inc.com/@react-spring/rafz/9.6.0
+      '@react-spring/types': npm.urbanic-inc.com/@react-spring/types/9.6.0
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/@react-spring/types/9.6.0:
+    resolution: {integrity: sha512-XOWupgf+/rMhQTiIxZzjVRw+4ZNkXcO5tuha3pOBNK88a7LPGjM6imdS1aQ2kl3y1sBy0f9JrclNShfASbkvTw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@react-spring%2ftypes/-/types-9.6.0.tgz}
+    name: '@react-spring/types'
+    version: 9.6.0
+    dev: false
+
+  npm.urbanic-inc.com/@react-spring/web/9.6.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ztdkBmRZB020MEPEU8gXlbkE6858/IdA2P37RvcjOHq4tEpIizrsh/XTipU+T5iyrbT6UQLnh4JnIWow4jfOmg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@react-spring%2fweb/-/web-9.6.0.tgz}
+    id: npm.urbanic-inc.com/@react-spring/web/9.6.0
+    name: '@react-spring/web'
+    version: 9.6.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/animated': npm.urbanic-inc.com/@react-spring/animated/9.6.0_react@18.2.0
+      '@react-spring/core': npm.urbanic-inc.com/@react-spring/core/9.6.0_react@18.2.0
+      '@react-spring/shared': npm.urbanic-inc.com/@react-spring/shared/9.6.0_react@18.2.0
+      '@react-spring/types': npm.urbanic-inc.com/@react-spring/types/9.6.0
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/@remix-run/router/1.0.5:
+    resolution: {integrity: sha512-my0Mycd+jruq/1lQuO5LBB6WTlL/e8DTCYWp44DfMTDcXz8DcTlgF0ISaLsGewt+ctHN+yA8xMq3q/N7uWJPug==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@remix-run%2frouter/-/router-1.0.5.tgz}
+    name: '@remix-run/router'
+    version: 1.0.5
+    engines: {node: '>=14'}
+    dev: false
+
+  npm.urbanic-inc.com/@rollup/pluginutils/4.2.1:
+    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@rollup%2fpluginutils/-/pluginutils-4.2.1.tgz}
+    name: '@rollup/pluginutils'
+    version: 4.2.1
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: npm.urbanic-inc.com/estree-walker/2.0.2
+      picomatch: npm.urbanic-inc.com/picomatch/2.3.1
+    dev: false
+
+  npm.urbanic-inc.com/@swc/core-darwin-arm64/1.3.19:
+    resolution: {integrity: sha512-6xLtmXzS4nNWGQkajbiAjGXspUJfxS2IWoGQ16J9nfOFdttKyoIG5o5+mxUfKeg5bXw9cI+r675kN/irx3z7MQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-darwin-arm64/-/core-darwin-arm64-1.3.19.tgz}
+    name: '@swc/core-darwin-arm64'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-darwin-x64/1.3.19:
+    resolution: {integrity: sha512-qCDQcngYBeWrsNS1kcBslRD0dahKcYKaUUWRC9yHpRcs3SRvnSpJyWQR4y9RCdO9YNmixJ9+5+zPD9qcgL7jBw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-darwin-x64/-/core-darwin-x64-1.3.19.tgz}
+    name: '@swc/core-darwin-x64'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-linux-arm-gnueabihf/1.3.19:
+    resolution: {integrity: sha512-ufbKW6Lhii1+kVCXnsHgqYIpRvXhPjdhMudfP4KKVgJtT6TsdEIr+KRAQIBHLjRUsTKA2DLsGEpu9jfjwFiNEg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.3.19.tgz}
+    name: '@swc/core-linux-arm-gnueabihf'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-linux-arm64-gnu/1.3.19:
+    resolution: {integrity: sha512-HHhqLRZv9Ss8orJrlEP4XRcLuqLDwFtGgbtHU8kyWBmQEtK42uT18Pf5RJBo5sPJHY8m5EO8C8y3hIbGmKtLyg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-linux-arm64-gnu/-/core-linux-arm64-gnu-1.3.19.tgz}
+    name: '@swc/core-linux-arm64-gnu'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-linux-arm64-musl/1.3.19:
+    resolution: {integrity: sha512-vipnF3C6T1368uHQqz8RpdszWxxGh0X8VBK3TdTOSWvI/duNZtZXEOZlB2Nh9w+u09umVw0MsJhvg86Aon39mA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-linux-arm64-musl/-/core-linux-arm64-musl-1.3.19.tgz}
+    name: '@swc/core-linux-arm64-musl'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-linux-x64-gnu/1.3.19:
+    resolution: {integrity: sha512-dUbq8mnIqBhU7OppfY3ncOvl26691WFGxd97QtnnlfMZrKnaofKFMIxE9sTHOLSbBo16AylnEMiwa45w2UWDEg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-linux-x64-gnu/-/core-linux-x64-gnu-1.3.19.tgz}
+    name: '@swc/core-linux-x64-gnu'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-linux-x64-musl/1.3.19:
+    resolution: {integrity: sha512-RiVZrlkNGcj9jZyjF7YFOW3fj9fWPC25AYkknLpWxAmLQcp1piAWj+aSixmMWUC4QJau78VZzcm+kRgIOECALw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-linux-x64-musl/-/core-linux-x64-musl-1.3.19.tgz}
+    name: '@swc/core-linux-x64-musl'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-win32-arm64-msvc/1.3.19:
+    resolution: {integrity: sha512-r2U6GC+go2iiLx5JBZIJswYFiMv0yOsm+pgE1srVvAc8dP02320t9yh0Uj4Sr2hDipTWJ33Y5PMZwEsZSfBVbQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-win32-arm64-msvc/-/core-win32-arm64-msvc-1.3.19.tgz}
+    name: '@swc/core-win32-arm64-msvc'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-win32-ia32-msvc/1.3.19:
+    resolution: {integrity: sha512-SPpESDa4vr0PRvUiqXSi8oZSTmkDOGrZ/pSiLD7ISgjsQ5RQMbPkuEK0ztWljim87q2fO0bGVVhyaVYxdOVS1A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-win32-ia32-msvc/-/core-win32-ia32-msvc-1.3.19.tgz}
+    name: '@swc/core-win32-ia32-msvc'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core-win32-x64-msvc/1.3.19:
+    resolution: {integrity: sha512-0X5HqFC1wQlheOQDZeF6KNOSURZKkGISNK3aTSmTq9g7dDJ/kTcVjsdKbu2rK4ibCnlC9IS0cLK9FpROnsVPwA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore-win32-x64-msvc/-/core-win32-x64-msvc-1.3.19.tgz}
+    name: '@swc/core-win32-x64-msvc'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/@swc/core/1.3.19:
+    resolution: {integrity: sha512-KiXUv2vpmOaGhoLCN9Rw7Crsfq1YmOR2ZbajiqNAh/iu0d3CKn5JZhLRs6S7nCk78cwFFac2obQfTWPePLUe/g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fcore/-/core-1.3.19.tgz}
+    name: '@swc/core'
+    version: 1.3.19
+    engines: {node: '>=10'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@swc/core-darwin-arm64': npm.urbanic-inc.com/@swc/core-darwin-arm64/1.3.19
+      '@swc/core-darwin-x64': npm.urbanic-inc.com/@swc/core-darwin-x64/1.3.19
+      '@swc/core-linux-arm-gnueabihf': npm.urbanic-inc.com/@swc/core-linux-arm-gnueabihf/1.3.19
+      '@swc/core-linux-arm64-gnu': npm.urbanic-inc.com/@swc/core-linux-arm64-gnu/1.3.19
+      '@swc/core-linux-arm64-musl': npm.urbanic-inc.com/@swc/core-linux-arm64-musl/1.3.19
+      '@swc/core-linux-x64-gnu': npm.urbanic-inc.com/@swc/core-linux-x64-gnu/1.3.19
+      '@swc/core-linux-x64-musl': npm.urbanic-inc.com/@swc/core-linux-x64-musl/1.3.19
+      '@swc/core-win32-arm64-msvc': npm.urbanic-inc.com/@swc/core-win32-arm64-msvc/1.3.19
+      '@swc/core-win32-ia32-msvc': npm.urbanic-inc.com/@swc/core-win32-ia32-msvc/1.3.19
+      '@swc/core-win32-x64-msvc': npm.urbanic-inc.com/@swc/core-win32-x64-msvc/1.3.19
+    dev: false
+
+  npm.urbanic-inc.com/@swc/helpers/0.4.12:
+    resolution: {integrity: sha512-R6RmwS9Dld5lNvwKlPn62+piU+WDG1sMfsnfJioXCciyko/gZ0DQ4Mqglhq1iGU1nQ/RcGkAwfMH+elMSkJH3Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@swc%2fhelpers/-/helpers-0.4.12.tgz}
+    name: '@swc/helpers'
+    version: 0.4.12
+    dependencies:
+      tslib: npm.urbanic-inc.com/tslib/2.4.1
+    dev: false
+
+  npm.urbanic-inc.com/@types/body-parser/1.19.2:
+    resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fbody-parser/-/body-parser-1.19.2.tgz}
+    name: '@types/body-parser'
+    version: 1.19.2
+    dependencies:
+      '@types/connect': npm.urbanic-inc.com/@types/connect/3.4.35
+      '@types/node': npm.urbanic-inc.com/@types/node/18.11.14
+    dev: false
+
+  npm.urbanic-inc.com/@types/connect/3.4.35:
+    resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fconnect/-/connect-3.4.35.tgz}
+    name: '@types/connect'
+    version: 3.4.35
+    dependencies:
+      '@types/node': npm.urbanic-inc.com/@types/node/18.11.14
+    dev: false
+
+  npm.urbanic-inc.com/@types/eslint-scope/3.7.4:
+    resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2feslint-scope/-/eslint-scope-3.7.4.tgz}
+    name: '@types/eslint-scope'
+    version: 3.7.4
+    dependencies:
+      '@types/eslint': npm.urbanic-inc.com/@types/eslint/8.4.10
+      '@types/estree': npm.urbanic-inc.com/@types/estree/0.0.51
+    dev: true
+
+  npm.urbanic-inc.com/@types/eslint/8.4.10:
+    resolution: {integrity: sha512-Sl/HOqN8NKPmhWo2VBEPm0nvHnu2LL3v9vKo8MEq0EtbJ4eVzGPl41VNPvn5E1i5poMk4/XD8UriLHpJvEP/Nw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2feslint/-/eslint-8.4.10.tgz}
+    name: '@types/eslint'
+    version: 8.4.10
+    dependencies:
+      '@types/estree': npm.urbanic-inc.com/@types/estree/0.0.51
+      '@types/json-schema': npm.urbanic-inc.com/@types/json-schema/7.0.11
+    dev: true
+
+  npm.urbanic-inc.com/@types/estree/0.0.51:
+    resolution: {integrity: sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2festree/-/estree-0.0.51.tgz}
+    name: '@types/estree'
+    version: 0.0.51
+    dev: true
+
+  npm.urbanic-inc.com/@types/express-serve-static-core/4.17.31:
+    resolution: {integrity: sha512-DxMhY+NAsTwMMFHBTtJFNp5qiHKJ7TeqOo23zVEM9alT1Ml27Q3xcTH0xwxn7Q0BbMcVEJOs/7aQtUWupUQN3Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fexpress-serve-static-core/-/express-serve-static-core-4.17.31.tgz}
+    name: '@types/express-serve-static-core'
+    version: 4.17.31
+    dependencies:
+      '@types/node': npm.urbanic-inc.com/@types/node/18.11.14
+      '@types/qs': npm.urbanic-inc.com/@types/qs/6.9.7
+      '@types/range-parser': npm.urbanic-inc.com/@types/range-parser/1.2.4
+    dev: false
+
+  npm.urbanic-inc.com/@types/express/4.17.14:
+    resolution: {integrity: sha512-TEbt+vaPFQ+xpxFLFssxUDXj5cWCxZJjIcB7Yg0k0GMHGtgtQgpvx/MUQUeAkNbA9AAGrwkAsoeItdTgS7FMyg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fexpress/-/express-4.17.14.tgz}
+    name: '@types/express'
+    version: 4.17.14
+    dependencies:
+      '@types/body-parser': npm.urbanic-inc.com/@types/body-parser/1.19.2
+      '@types/express-serve-static-core': npm.urbanic-inc.com/@types/express-serve-static-core/4.17.31
+      '@types/qs': npm.urbanic-inc.com/@types/qs/6.9.7
+      '@types/serve-static': npm.urbanic-inc.com/@types/serve-static/1.15.0
+    dev: false
+
+  npm.urbanic-inc.com/@types/js-cookie/2.2.7:
+    resolution: {integrity: sha512-aLkWa0C0vO5b4Sr798E26QgOkss68Un0bLjs7u9qxzPT5CG+8DuNTffWES58YzJs3hrVAOs1wonycqEBqNJubA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fjs-cookie/-/js-cookie-2.2.7.tgz}
+    name: '@types/js-cookie'
+    version: 2.2.7
+    dev: false
+
+  npm.urbanic-inc.com/@types/json-schema/7.0.11:
+    resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fjson-schema/-/json-schema-7.0.11.tgz}
+    name: '@types/json-schema'
+    version: 7.0.11
+    dev: true
+
+  npm.urbanic-inc.com/@types/mime/3.0.1:
+    resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fmime/-/mime-3.0.1.tgz}
+    name: '@types/mime'
+    version: 3.0.1
+    dev: false
+
+  npm.urbanic-inc.com/@types/node/18.11.14:
+    resolution: {integrity: sha512-0KXV57tENYmmJMl+FekeW9V3O/rlcqGQQJ/hNh9r8pKIj304pskWuEd8fCyNT86g/TpO0gcOTiLzsHLEURFMIQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fnode/-/node-18.11.14.tgz}
+    name: '@types/node'
+    version: 18.11.14
+
+  npm.urbanic-inc.com/@types/prop-types/15.7.5:
+    resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fprop-types/-/prop-types-15.7.5.tgz}
+    name: '@types/prop-types'
+    version: 15.7.5
+    dev: true
+
+  npm.urbanic-inc.com/@types/qs/6.9.7:
+    resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fqs/-/qs-6.9.7.tgz}
+    name: '@types/qs'
+    version: 6.9.7
+    dev: false
+
+  npm.urbanic-inc.com/@types/range-parser/1.2.4:
+    resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2frange-parser/-/range-parser-1.2.4.tgz}
+    name: '@types/range-parser'
+    version: 1.2.4
+    dev: false
+
+  npm.urbanic-inc.com/@types/react-dom/18.0.9:
+    resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2freact-dom/-/react-dom-18.0.9.tgz}
+    name: '@types/react-dom'
+    version: 18.0.9
+    dependencies:
+      '@types/react': npm.urbanic-inc.com/@types/react/18.0.26
+    dev: true
+
+  npm.urbanic-inc.com/@types/react/18.0.26:
+    resolution: {integrity: sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2freact/-/react-18.0.26.tgz}
+    name: '@types/react'
+    version: 18.0.26
+    dependencies:
+      '@types/prop-types': npm.urbanic-inc.com/@types/prop-types/15.7.5
+      '@types/scheduler': npm.urbanic-inc.com/@types/scheduler/0.16.2
+      csstype: npm.urbanic-inc.com/csstype/3.1.1
+    dev: true
+
+  npm.urbanic-inc.com/@types/scheduler/0.16.2:
+    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fscheduler/-/scheduler-0.16.2.tgz}
+    name: '@types/scheduler'
+    version: 0.16.2
+    dev: true
+
+  npm.urbanic-inc.com/@types/serve-static/1.15.0:
+    resolution: {integrity: sha512-z5xyF6uh8CbjAu9760KDKsH2FcDxZ2tFCsA4HIMWE6IkiYMXfVoa+4f9KX+FN0ZLsaMw1WNG2ETLA6N+/YA+cg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@types%2fserve-static/-/serve-static-1.15.0.tgz}
+    name: '@types/serve-static'
+    version: 1.15.0
+    dependencies:
+      '@types/mime': npm.urbanic-inc.com/@types/mime/3.0.1
+      '@types/node': npm.urbanic-inc.com/@types/node/18.11.14
+    dev: false
+
+  npm.urbanic-inc.com/@uni/env/1.1.0:
+    resolution: {integrity: sha512-2GVgUzxIaO2vGElXEuc45+I7L6Jbw8inLDDFuC0K4htjKtPmYywKSE6oDhvmdAXb4GCOH8hmxECYtAh1rjsgoQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@uni%2fenv/-/env-1.1.0.tgz}
+    name: '@uni/env'
+    version: 1.1.0
+    dev: false
+
+  npm.urbanic-inc.com/@use-gesture/core/10.2.20:
+    resolution: {integrity: sha512-4lFhHc8so4yIHkBEs641DnEsBxPyhJ5GEjB4PURFDH4p/FcZriH6w99knZgI63zN/MBFfylMyb8+PDuj6RIXKQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@use-gesture%2fcore/-/core-10.2.20.tgz}
+    name: '@use-gesture/core'
+    version: 10.2.20
+    dev: false
+
+  npm.urbanic-inc.com/@use-gesture/react/10.2.20_react@18.2.0:
+    resolution: {integrity: sha512-KnJq9ZSqprWA6uNhWTUHZqTCh+rfa0j8ehTzqeBhktUPrmTj7yVOBvEQ/vSFU/7d72cGgWSsJ0f5T6GQCHXnvg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@use-gesture%2freact/-/react-10.2.20.tgz}
+    id: npm.urbanic-inc.com/@use-gesture/react/10.2.20
+    name: '@use-gesture/react'
+    version: 10.2.20
+    peerDependencies:
+      react: '>= 16.8.0'
+    dependencies:
+      '@use-gesture/core': npm.urbanic-inc.com/@use-gesture/core/10.2.20
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/@xtuc/ieee754/1.2.0:
+    resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/@xtuc%2fieee754/-/ieee754-1.2.0.tgz}
+    name: '@xtuc/ieee754'
+    version: 1.2.0
+    dev: true
+
+  npm.urbanic-inc.com/acorn-import-assertions/1.8.0_acorn@8.8.1:
+    resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/acorn-import-assertions/-/acorn-import-assertions-1.8.0.tgz}
+    id: npm.urbanic-inc.com/acorn-import-assertions/1.8.0
+    name: acorn-import-assertions
+    version: 1.8.0
+    peerDependencies:
+      acorn: ^8
+    dependencies:
+      acorn: npm.urbanic-inc.com/acorn/8.8.1
+    dev: true
+
+  npm.urbanic-inc.com/acorn/8.8.1:
+    resolution: {integrity: sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/acorn/-/acorn-8.8.1.tgz}
+    name: acorn
+    version: 8.8.1
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: true
+
+  npm.urbanic-inc.com/address/1.2.1:
+    resolution: {integrity: sha512-B+6bi5D34+fDYENiH5qOlA0cV2rAGKuWZ9LeyUUehbXy8e0VS9e498yO0Jeeh+iM+6KbfudHTFjXw2MmJD4QRA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/address/-/address-1.2.1.tgz}
+    name: address
+    version: 1.2.1
+    engines: {node: '>= 10.0.0'}
+    dev: false
+
+  npm.urbanic-inc.com/ahooks-v3-count/1.0.0:
+    resolution: {integrity: sha512-V7uUvAwnimu6eh/PED4mCDjE7tokeZQLKlxg9lCTMPhN+NjsSbtdacByVlR1oluXQzD3MOw55wylDmQo4+S9ZQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ahooks-v3-count/-/ahooks-v3-count-1.0.0.tgz}
+    name: ahooks-v3-count
+    version: 1.0.0
+    dev: false
+
+  npm.urbanic-inc.com/ahooks/3.7.2_react@18.2.0:
+    resolution: {integrity: sha512-nJPsQJcmJnGaNXiqgZdfO7UMs+o926LQg6VyDYt2vzKhXU8Ze/U87NsA/FeIvlIZB0rQr/j7uotFb1bGPp627A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ahooks/-/ahooks-3.7.2.tgz}
+    id: npm.urbanic-inc.com/ahooks/3.7.2
+    name: ahooks
+    version: 3.7.2
+    engines: {node: '>=8.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@types/js-cookie': npm.urbanic-inc.com/@types/js-cookie/2.2.7
+      ahooks-v3-count: npm.urbanic-inc.com/ahooks-v3-count/1.0.0
+      dayjs: npm.urbanic-inc.com/dayjs/1.11.7
+      intersection-observer: npm.urbanic-inc.com/intersection-observer/0.12.2
+      js-cookie: npm.urbanic-inc.com/js-cookie/2.2.1
+      lodash: npm.urbanic-inc.com/lodash/4.17.21
+      react: npm.urbanic-inc.com/react/18.2.0
+      resize-observer-polyfill: npm.urbanic-inc.com/resize-observer-polyfill/1.5.1
+      screenfull: npm.urbanic-inc.com/screenfull/5.2.0
+    dev: false
+
+  npm.urbanic-inc.com/ajv-keywords/3.5.2_ajv@6.12.6:
+    resolution: {integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz}
+    id: npm.urbanic-inc.com/ajv-keywords/3.5.2
+    name: ajv-keywords
+    version: 3.5.2
+    peerDependencies:
+      ajv: ^6.9.1
+    dependencies:
+      ajv: npm.urbanic-inc.com/ajv/6.12.6
+    dev: true
+
+  npm.urbanic-inc.com/ajv/6.12.6:
+    resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ajv/-/ajv-6.12.6.tgz}
+    name: ajv
+    version: 6.12.6
+    dependencies:
+      fast-deep-equal: npm.urbanic-inc.com/fast-deep-equal/3.1.3
+      fast-json-stable-stringify: npm.urbanic-inc.com/fast-json-stable-stringify/2.1.0
+      json-schema-traverse: npm.urbanic-inc.com/json-schema-traverse/0.4.1
+      uri-js: npm.urbanic-inc.com/uri-js/4.4.1
+    dev: true
+
+  npm.urbanic-inc.com/ansi-html-community/0.0.8:
+    resolution: {integrity: sha512-1APHAyr3+PCamwNw3bXCPp4HFLONZt/yIH0sZp0/469KWNTEy+qN5jQ3GVX6DMZ1UXAi34yVwtTeaG/HpBuuzw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz}
+    name: ansi-html-community
+    version: 0.0.8
+    engines: {'0': node >= 0.8.0}
+    hasBin: true
+    dev: false
+
+  npm.urbanic-inc.com/ansi-regex/2.1.1:
+    resolution: {integrity: sha512-TIGnTpdo+E3+pCyAluZvtED5p5wCqLdezCyhPZzKPcxvFplEt4i+W7OONCKgeZFT3+y5NZZfOOS/Bdcanm1MYA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ansi-regex/-/ansi-regex-2.1.1.tgz}
+    name: ansi-regex
+    version: 2.1.1
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/ansi-styles/3.2.1:
+    resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ansi-styles/-/ansi-styles-3.2.1.tgz}
+    name: ansi-styles
+    version: 3.2.1
+    engines: {node: '>=4'}
+    dependencies:
+      color-convert: npm.urbanic-inc.com/color-convert/1.9.3
+    dev: false
+
+  npm.urbanic-inc.com/ansi-styles/4.3.0:
+    resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ansi-styles/-/ansi-styles-4.3.0.tgz}
+    name: ansi-styles
+    version: 4.3.0
+    engines: {node: '>=8'}
+    dependencies:
+      color-convert: npm.urbanic-inc.com/color-convert/2.0.1
+
+  npm.urbanic-inc.com/antd-mobile-icons/0.3.0:
+    resolution: {integrity: sha512-rqINQpJWZWrva9moCd1Ye695MZYWmqLPE+bY8d2xLRy7iSQwPsinCdZYjpUPp2zL/LnKYSyXxP2ut2A+DC+whQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/antd-mobile-icons/-/antd-mobile-icons-0.3.0.tgz}
+    name: antd-mobile-icons
+    version: 0.3.0
+    dev: false
+
+  npm.urbanic-inc.com/antd-mobile-v5-count/1.0.1:
+    resolution: {integrity: sha512-YGsiEDCPUDz3SzfXi6gLZn/HpeSMW+jgPc4qiYUr1fSopg3hkUie2TnooJdExgfiETHefH3Ggs58He0OVfegLA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/antd-mobile-v5-count/-/antd-mobile-v5-count-1.0.1.tgz}
+    name: antd-mobile-v5-count
+    version: 1.0.1
+    dev: false
+
+  npm.urbanic-inc.com/antd-mobile/5.27.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-rnRqgn5GDh5K1dNzK7vxguZP5YcruMeL2BcgFJNpGfSw6Tj7U+NQkVybrVd7BeQAWCi8nCLKuunPUhCRrn4q7g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/antd-mobile/-/antd-mobile-5.27.0.tgz}
+    id: npm.urbanic-inc.com/antd-mobile/5.27.0
+    name: antd-mobile
+    version: 5.27.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@floating-ui/dom': npm.urbanic-inc.com/@floating-ui/dom/1.0.10
+      '@rc-component/mini-decimal': npm.urbanic-inc.com/@rc-component/mini-decimal/1.0.1
+      '@react-spring/web': npm.urbanic-inc.com/@react-spring/web/9.6.0_biqbaboplfbrettd7655fr4n2y
+      '@use-gesture/react': npm.urbanic-inc.com/@use-gesture/react/10.2.20_react@18.2.0
+      ahooks: npm.urbanic-inc.com/ahooks/3.7.2_react@18.2.0
+      antd-mobile-icons: npm.urbanic-inc.com/antd-mobile-icons/0.3.0
+      antd-mobile-v5-count: npm.urbanic-inc.com/antd-mobile-v5-count/1.0.1
+      classnames: npm.urbanic-inc.com/classnames/2.3.2
+      dayjs: npm.urbanic-inc.com/dayjs/1.11.7
+      lodash: npm.urbanic-inc.com/lodash/4.17.21
+      rc-field-form: npm.urbanic-inc.com/rc-field-form/1.27.3_biqbaboplfbrettd7655fr4n2y
+      rc-util: npm.urbanic-inc.com/rc-util/5.25.3_biqbaboplfbrettd7655fr4n2y
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-is: npm.urbanic-inc.com/react-is/17.0.2
+      runes: npm.urbanic-inc.com/runes/0.4.3
+      staged-components: npm.urbanic-inc.com/staged-components/1.1.3_react@18.2.0
+      tslib: npm.urbanic-inc.com/tslib/2.4.1
+      use-sync-external-store: npm.urbanic-inc.com/use-sync-external-store/1.2.0_react@18.2.0
+    transitivePeerDependencies:
+      - react-dom
+    dev: false
+
+  npm.urbanic-inc.com/anymatch/3.1.3:
+    resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/anymatch/-/anymatch-3.1.3.tgz}
+    name: anymatch
+    version: 3.1.3
+    engines: {node: '>= 8'}
+    dependencies:
+      normalize-path: npm.urbanic-inc.com/normalize-path/3.0.0
+      picomatch: npm.urbanic-inc.com/picomatch/2.3.1
+    dev: false
+
+  npm.urbanic-inc.com/aproba/1.2.0:
+    resolution: {integrity: sha512-Y9J6ZjXtoYh8RnXVCMOU/ttDmk1aBjunq9vO0ta5x85WDQiQfUF9sIPBITdbiiIVcBo03Hi3jMxigBtsddlXRw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/aproba/-/aproba-1.2.0.tgz}
+    name: aproba
+    version: 1.2.0
+    dev: false
+
+  npm.urbanic-inc.com/are-we-there-yet/1.1.7:
+    resolution: {integrity: sha512-nxwy40TuMiUGqMyRHgCSWZ9FM4VAoRP4xUYSTv5ImRog+h9yISPbVH7H8fASCIzYn9wlEv4zvFL7uKDMCFQm3g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/are-we-there-yet/-/are-we-there-yet-1.1.7.tgz}
+    name: are-we-there-yet
+    version: 1.1.7
+    dependencies:
+      delegates: npm.urbanic-inc.com/delegates/1.0.0
+      readable-stream: npm.urbanic-inc.com/readable-stream/2.3.7
+    dev: false
+
+  npm.urbanic-inc.com/async-validator/4.2.5:
+    resolution: {integrity: sha512-7HhHjtERjqlNbZtqNqy2rckN/SpOOlmDliet+lP7k+eKZEjPk3DgyeU9lIXLdeLz0uBbbVp+9Qdow9wJWgwwfg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/async-validator/-/async-validator-4.2.5.tgz}
+    name: async-validator
+    version: 4.2.5
+    dev: false
+
+  npm.urbanic-inc.com/async/3.2.4:
+    resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/async/-/async-3.2.4.tgz}
+    name: async
+    version: 3.2.4
+    dev: false
+
+  npm.urbanic-inc.com/balanced-match/1.0.2:
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/balanced-match/-/balanced-match-1.0.2.tgz}
+    name: balanced-match
+    version: 1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/binary-extensions/2.2.0:
+    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/binary-extensions/-/binary-extensions-2.2.0.tgz}
+    name: binary-extensions
+    version: 2.2.0
+    engines: {node: '>=8'}
+    dev: false
+
+  npm.urbanic-inc.com/brace-expansion/1.1.11:
+    resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/brace-expansion/-/brace-expansion-1.1.11.tgz}
+    name: brace-expansion
+    version: 1.1.11
+    dependencies:
+      balanced-match: npm.urbanic-inc.com/balanced-match/1.0.2
+      concat-map: 0.0.1
+    dev: false
+
+  npm.urbanic-inc.com/brace-expansion/2.0.1:
+    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/brace-expansion/-/brace-expansion-2.0.1.tgz}
+    name: brace-expansion
+    version: 2.0.1
+    dependencies:
+      balanced-match: npm.urbanic-inc.com/balanced-match/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/braces/3.0.2:
+    resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/braces/-/braces-3.0.2.tgz}
+    name: braces
+    version: 3.0.2
+    engines: {node: '>=8'}
+    dependencies:
+      fill-range: npm.urbanic-inc.com/fill-range/7.0.1
+    dev: false
+
+  npm.urbanic-inc.com/browserslist/4.21.4:
+    resolution: {integrity: sha512-CBHJJdDmgjl3daYjN5Cp5kbTf1mUhZoS+beLklHIvkOWscs83YAhLlF3Wsh/lciQYAcbBJgTOD44VtG31ZM4Hw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/browserslist/-/browserslist-4.21.4.tgz}
+    name: browserslist
+    version: 4.21.4
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+    dependencies:
+      caniuse-lite: npm.urbanic-inc.com/caniuse-lite/1.0.30001439
+      electron-to-chromium: npm.urbanic-inc.com/electron-to-chromium/1.4.284
+      node-releases: npm.urbanic-inc.com/node-releases/2.0.6
+      update-browserslist-db: npm.urbanic-inc.com/update-browserslist-db/1.0.10_browserslist@4.21.4
+    dev: true
+
+  npm.urbanic-inc.com/buffer-from/1.1.2:
+    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/buffer-from/-/buffer-from-1.1.2.tgz}
+    name: buffer-from
+    version: 1.1.2
+    dev: true
+
+  npm.urbanic-inc.com/build-scripts/2.0.0:
+    resolution: {integrity: sha512-OZRX/aSasqrnB/+xPQZn2cyUAlxduFKxsNJFp11u8C2NA/giyUigMfIaT3to7HZi+10//ErHKDqm4M7zf7nSrw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/build-scripts/-/build-scripts-2.0.0.tgz}
+    name: build-scripts
+    version: 2.0.0
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      camelcase: npm.urbanic-inc.com/camelcase/5.3.1
+      commander: npm.urbanic-inc.com/commander/2.20.3
+      consola: npm.urbanic-inc.com/consola/2.15.3
+      esbuild: npm.urbanic-inc.com/esbuild/0.14.54
+      fast-glob: npm.urbanic-inc.com/fast-glob/3.2.12
+      fs-extra: npm.urbanic-inc.com/fs-extra/8.1.0
+      json5: npm.urbanic-inc.com/json5/2.2.1
+      lodash: npm.urbanic-inc.com/lodash/4.17.21
+      npmlog: npm.urbanic-inc.com/npmlog/4.1.2
+      picocolors: npm.urbanic-inc.com/picocolors/1.0.0
+      semver: npm.urbanic-inc.com/semver/7.3.8
+    dev: false
+
+  npm.urbanic-inc.com/camelcase/5.3.1:
+    resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/camelcase/-/camelcase-5.3.1.tgz}
+    name: camelcase
+    version: 5.3.1
+    engines: {node: '>=6'}
+    dev: false
+
+  npm.urbanic-inc.com/caniuse-lite/1.0.30001439:
+    resolution: {integrity: sha512-1MgUzEkoMO6gKfXflStpYgZDlFM7M/ck/bgfVCACO5vnAf0fXoNVHdWtqGU+MYca+4bL9Z5bpOVmR33cWW9G2A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/caniuse-lite/-/caniuse-lite-1.0.30001439.tgz}
+    name: caniuse-lite
+    version: 1.0.30001439
+
+  npm.urbanic-inc.com/chalk/2.4.2:
+    resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/chalk/-/chalk-2.4.2.tgz}
+    name: chalk
+    version: 2.4.2
+    engines: {node: '>=4'}
+    dependencies:
+      ansi-styles: npm.urbanic-inc.com/ansi-styles/3.2.1
+      escape-string-regexp: npm.urbanic-inc.com/escape-string-regexp/1.0.5
+      supports-color: npm.urbanic-inc.com/supports-color/5.5.0
+    dev: false
+
+  npm.urbanic-inc.com/chalk/4.1.2:
+    resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/chalk/-/chalk-4.1.2.tgz}
+    name: chalk
+    version: 4.1.2
+    engines: {node: '>=10'}
+    dependencies:
+      ansi-styles: npm.urbanic-inc.com/ansi-styles/4.3.0
+      supports-color: npm.urbanic-inc.com/supports-color/7.2.0
+
+  npm.urbanic-inc.com/chokidar/3.5.3:
+    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/chokidar/-/chokidar-3.5.3.tgz}
+    name: chokidar
+    version: 3.5.3
+    engines: {node: '>= 8.10.0'}
+    dependencies:
+      anymatch: npm.urbanic-inc.com/anymatch/3.1.3
+      braces: npm.urbanic-inc.com/braces/3.0.2
+      glob-parent: npm.urbanic-inc.com/glob-parent/5.1.2
+      is-binary-path: npm.urbanic-inc.com/is-binary-path/2.1.0
+      is-glob: npm.urbanic-inc.com/is-glob/4.0.3
+      normalize-path: npm.urbanic-inc.com/normalize-path/3.0.0
+      readdirp: npm.urbanic-inc.com/readdirp/3.6.0
+    optionalDependencies:
+      fsevents: npm.urbanic-inc.com/fsevents/2.3.2
+    dev: false
+
+  npm.urbanic-inc.com/chrome-trace-event/1.0.3:
+    resolution: {integrity: sha512-p3KULyQg4S7NIHixdwbGX+nFHkoBiA4YQmyWtjb8XngSKV124nJmRysgAeujbUVb15vh+RvFUfCPqU7rXk+hZg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz}
+    name: chrome-trace-event
+    version: 1.0.3
+    engines: {node: '>=6.0'}
+    dev: true
+
+  npm.urbanic-inc.com/classnames/2.3.2:
+    resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/classnames/-/classnames-2.3.2.tgz}
+    name: classnames
+    version: 2.3.2
+    dev: false
+
+  npm.urbanic-inc.com/code-point-at/1.1.0:
+    resolution: {integrity: sha512-RpAVKQA5T63xEj6/giIbUEtZwJ4UFIc3ZtvEkiaUERylqe8xb5IvqcgOurZLahv93CLKfxcw5YI+DZcUBRyLXA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/code-point-at/-/code-point-at-1.1.0.tgz}
+    name: code-point-at
+    version: 1.1.0
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/color-convert/1.9.3:
+    resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/color-convert/-/color-convert-1.9.3.tgz}
+    name: color-convert
+    version: 1.9.3
+    dependencies:
+      color-name: npm.urbanic-inc.com/color-name/1.1.3
+    dev: false
+
+  npm.urbanic-inc.com/color-convert/2.0.1:
+    resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/color-convert/-/color-convert-2.0.1.tgz}
+    name: color-convert
+    version: 2.0.1
+    engines: {node: '>=7.0.0'}
+    dependencies:
+      color-name: npm.urbanic-inc.com/color-name/1.1.4
+
+  npm.urbanic-inc.com/color-name/1.1.3:
+    resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/color-name/-/color-name-1.1.3.tgz}
+    name: color-name
+    version: 1.1.3
+    dev: false
+
+  npm.urbanic-inc.com/color-name/1.1.4:
+    resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/color-name/-/color-name-1.1.4.tgz}
+    name: color-name
+    version: 1.1.4
+
+  npm.urbanic-inc.com/commander/2.20.3:
+    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/commander/-/commander-2.20.3.tgz}
+    name: commander
+    version: 2.20.3
+
+  npm.urbanic-inc.com/commander/9.4.1:
+    resolution: {integrity: sha512-5EEkTNyHNGFPD2H+c/dXXfQZYa/scCKasxWcXJaWnNJ99pnQN9Vnmqow+p+PlFPE63Q6mThaZws1T+HxfpgtPw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/commander/-/commander-9.4.1.tgz}
+    name: commander
+    version: 9.4.1
+    engines: {node: ^12.20.0 || >=14}
+    dev: false
+
+  npm.urbanic-inc.com/consola/2.15.3:
+    resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/consola/-/consola-2.15.3.tgz}
+    name: consola
+    version: 2.15.3
+    dev: false
+
+  npm.urbanic-inc.com/console-control-strings/1.1.0:
+    resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/console-control-strings/-/console-control-strings-1.1.0.tgz}
+    name: console-control-strings
+    version: 1.1.0
+    dev: false
+
+  npm.urbanic-inc.com/copy-anything/2.0.6:
+    resolution: {integrity: sha512-1j20GZTsvKNkc4BY3NpMOM8tt///wY3FpIzozTOFO2ffuZcV61nojHXVKIy3WM+7ADCy5FVhdZYHYDdgTU0yJw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/copy-anything/-/copy-anything-2.0.6.tgz}
+    name: copy-anything
+    version: 2.0.6
+    dependencies:
+      is-what: npm.urbanic-inc.com/is-what/3.14.1
+    dev: false
+
+  npm.urbanic-inc.com/core-js-pure/3.26.1:
+    resolution: {integrity: sha512-VVXcDpp/xJ21KdULRq/lXdLzQAtX7+37LzpyfFM973il0tWSsDEoyzG38G14AjTpK9VTfiNM9jnFauq/CpaWGQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/core-js-pure/-/core-js-pure-3.26.1.tgz}
+    name: core-js-pure
+    version: 3.26.1
+    requiresBuild: true
+    dev: false
+
+  npm.urbanic-inc.com/core-js/3.26.0:
+    resolution: {integrity: sha512-+DkDrhoR4Y0PxDz6rurahuB+I45OsEUv8E1maPTB6OuHRohMMcznBq9TMpdpDMm/hUPob/mJJS3PqgbHpMTQgw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/core-js/-/core-js-3.26.0.tgz}
+    name: core-js
+    version: 3.26.0
+    requiresBuild: true
+    dev: false
+
+  npm.urbanic-inc.com/core-util-is/1.0.3:
+    resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/core-util-is/-/core-util-is-1.0.3.tgz}
+    name: core-util-is
+    version: 1.0.3
+    dev: false
+
+  npm.urbanic-inc.com/cross-spawn/7.0.3:
+    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/cross-spawn/-/cross-spawn-7.0.3.tgz}
+    name: cross-spawn
+    version: 7.0.3
+    engines: {node: '>= 8'}
+    dependencies:
+      path-key: npm.urbanic-inc.com/path-key/3.1.1
+      shebang-command: npm.urbanic-inc.com/shebang-command/2.0.0
+      which: npm.urbanic-inc.com/which/2.0.2
+    dev: false
+
+  npm.urbanic-inc.com/csstype/3.1.1:
+    resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/csstype/-/csstype-3.1.1.tgz}
+    name: csstype
+    version: 3.1.1
+    dev: true
+
+  npm.urbanic-inc.com/dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/dayjs/-/dayjs-1.11.7.tgz}
+    name: dayjs
+    version: 1.11.7
+    dev: false
+
+  npm.urbanic-inc.com/debug/3.2.7:
+    resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/debug/-/debug-3.2.7.tgz}
+    name: debug
+    version: 3.2.7
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: npm.urbanic-inc.com/ms/2.1.3
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/debug/4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/debug/-/debug-4.3.4.tgz}
+    name: debug
+    version: 4.3.4
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: npm.urbanic-inc.com/ms/2.1.2
+    dev: false
+
+  npm.urbanic-inc.com/define-lazy-prop/2.0.0:
+    resolution: {integrity: sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/define-lazy-prop/-/define-lazy-prop-2.0.0.tgz}
+    name: define-lazy-prop
+    version: 2.0.0
+    engines: {node: '>=8'}
+    dev: false
+
+  npm.urbanic-inc.com/delegates/1.0.0:
+    resolution: {integrity: sha512-bd2L678uiWATM6m5Z1VzNCErI3jiGzt6HGY8OVICs40JQq/HALfbyNJmp0UDakEY4pMMaN0Ly5om/B1VI/+xfQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/delegates/-/delegates-1.0.0.tgz}
+    name: delegates
+    version: 1.0.0
+    dev: false
+
+  npm.urbanic-inc.com/detect-port/1.5.1:
+    resolution: {integrity: sha512-aBzdj76lueB6uUst5iAs7+0H/oOjqI5D16XUWxlWMIMROhcM0rfsNVk93zTngq1dDNpoXRr++Sus7ETAExppAQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/detect-port/-/detect-port-1.5.1.tgz}
+    name: detect-port
+    version: 1.5.1
+    hasBin: true
+    dependencies:
+      address: npm.urbanic-inc.com/address/1.2.1
+      debug: npm.urbanic-inc.com/debug/4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/dotenv-expand/8.0.3:
+    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/dotenv-expand/-/dotenv-expand-8.0.3.tgz}
+    name: dotenv-expand
+    version: 8.0.3
+    engines: {node: '>=12'}
+    dev: false
+
+  npm.urbanic-inc.com/dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/dotenv/-/dotenv-16.0.3.tgz}
+    name: dotenv
+    version: 16.0.3
+    engines: {node: '>=12'}
+    dev: false
+
+  npm.urbanic-inc.com/ejs/3.1.8:
+    resolution: {integrity: sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ejs/-/ejs-3.1.8.tgz}
+    name: ejs
+    version: 3.1.8
+    engines: {node: '>=0.10.0'}
+    hasBin: true
+    dependencies:
+      jake: npm.urbanic-inc.com/jake/10.8.5
+    dev: false
+
+  npm.urbanic-inc.com/electron-to-chromium/1.4.284:
+    resolution: {integrity: sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz}
+    name: electron-to-chromium
+    version: 1.4.284
+    dev: true
+
+  npm.urbanic-inc.com/enhanced-resolve/5.12.0:
+    resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/enhanced-resolve/-/enhanced-resolve-5.12.0.tgz}
+    name: enhanced-resolve
+    version: 5.12.0
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+      tapable: npm.urbanic-inc.com/tapable/2.2.1
+    dev: true
+
+  npm.urbanic-inc.com/errno/0.1.8:
+    resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/errno/-/errno-0.1.8.tgz}
+    name: errno
+    version: 0.1.8
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      prr: npm.urbanic-inc.com/prr/1.0.1
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/error-stack-parser/2.1.4:
+    resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/error-stack-parser/-/error-stack-parser-2.1.4.tgz}
+    name: error-stack-parser
+    version: 2.1.4
+    dependencies:
+      stackframe: npm.urbanic-inc.com/stackframe/1.3.4
+    dev: false
+
+  npm.urbanic-inc.com/es-module-lexer/0.9.3:
+    resolution: {integrity: sha512-1HQ2M2sPtxwnvOvT1ZClHyQDiggdNjURWpY2we6aMKCQiUVxTmVs2UYPLIrD84sS+kMdUwfBSylbJPwNnBrnHQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/es-module-lexer/-/es-module-lexer-0.9.3.tgz}
+    name: es-module-lexer
+    version: 0.9.3
+    dev: true
+
+  npm.urbanic-inc.com/esbuild-android-64/0.14.54:
+    resolution: {integrity: sha512-Tz2++Aqqz0rJ7kYBfz+iqyE3QMycD4vk7LBRyWaAVFgFtQ/O8EJOnVmTOiDWYZ/uYzB4kvP+bqejYdVKzE5lAQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-android-64/-/esbuild-android-64-0.14.54.tgz}
+    name: esbuild-android-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-android-arm64/0.14.54:
+    resolution: {integrity: sha512-F9E+/QDi9sSkLaClO8SOV6etqPd+5DgJje1F9lOWoNncDdOBL2YF59IhsWATSt0TLZbYCf3pNlTHvVV5VfHdvg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-android-arm64/-/esbuild-android-arm64-0.14.54.tgz}
+    name: esbuild-android-arm64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-darwin-64/0.14.54:
+    resolution: {integrity: sha512-jtdKWV3nBviOd5v4hOpkVmpxsBy90CGzebpbO9beiqUYVMBtSc0AL9zGftFuBon7PNDcdvNCEuQqw2x0wP9yug==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-darwin-64/-/esbuild-darwin-64-0.14.54.tgz}
+    name: esbuild-darwin-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-darwin-arm64/0.14.54:
+    resolution: {integrity: sha512-OPafJHD2oUPyvJMrsCvDGkRrVCar5aVyHfWGQzY1dWnzErjrDuSETxwA2HSsyg2jORLY8yBfzc1MIpUkXlctmw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.54.tgz}
+    name: esbuild-darwin-arm64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-freebsd-64/0.14.54:
+    resolution: {integrity: sha512-OKwd4gmwHqOTp4mOGZKe/XUlbDJ4Q9TjX0hMPIDBUWWu/kwhBAudJdBoxnjNf9ocIB6GN6CPowYpR/hRCbSYAg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-freebsd-64/-/esbuild-freebsd-64-0.14.54.tgz}
+    name: esbuild-freebsd-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-freebsd-arm64/0.14.54:
+    resolution: {integrity: sha512-sFwueGr7OvIFiQT6WeG0jRLjkjdqWWSrfbVwZp8iMP+8UHEHRBvlaxL6IuKNDwAozNUmbb8nIMXa7oAOARGs1Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.14.54.tgz}
+    name: esbuild-freebsd-arm64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-32/0.14.54:
+    resolution: {integrity: sha512-1ZuY+JDI//WmklKlBgJnglpUL1owm2OX+8E1syCD6UAxcMM/XoWd76OHSjl/0MR0LisSAXDqgjT3uJqT67O3qw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-32/-/esbuild-linux-32-0.14.54.tgz}
+    name: esbuild-linux-32
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-64/0.14.54:
+    resolution: {integrity: sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-64/-/esbuild-linux-64-0.14.54.tgz}
+    name: esbuild-linux-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-arm/0.14.54:
+    resolution: {integrity: sha512-qqz/SjemQhVMTnvcLGoLOdFpCYbz4v4fUo+TfsWG+1aOu70/80RV6bgNpR2JCrppV2moUQkww+6bWxXRL9YMGw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-arm/-/esbuild-linux-arm-0.14.54.tgz}
+    name: esbuild-linux-arm
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-arm64/0.14.54:
+    resolution: {integrity: sha512-WL71L+0Rwv+Gv/HTmxTEmpv0UgmxYa5ftZILVi2QmZBgX3q7+tDeOQNqGtdXSdsL8TQi1vIaVFHUPDe0O0kdig==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-arm64/-/esbuild-linux-arm64-0.14.54.tgz}
+    name: esbuild-linux-arm64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-mips64le/0.14.54:
+    resolution: {integrity: sha512-qTHGQB8D1etd0u1+sB6p0ikLKRVuCWhYQhAHRPkO+OF3I/iSlTKNNS0Lh2Oc0g0UFGguaFZZiPJdJey3AGpAlw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.14.54.tgz}
+    name: esbuild-linux-mips64le
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-ppc64le/0.14.54:
+    resolution: {integrity: sha512-j3OMlzHiqwZBDPRCDFKcx595XVfOfOnv68Ax3U4UKZ3MTYQB5Yz3X1mn5GnodEVYzhtZgxEBidLWeIs8FDSfrQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.14.54.tgz}
+    name: esbuild-linux-ppc64le
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-riscv64/0.14.54:
+    resolution: {integrity: sha512-y7Vt7Wl9dkOGZjxQZnDAqqn+XOqFD7IMWiewY5SPlNlzMX39ocPQlOaoxvT4FllA5viyV26/QzHtvTjVNOxHZg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.14.54.tgz}
+    name: esbuild-linux-riscv64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-linux-s390x/0.14.54:
+    resolution: {integrity: sha512-zaHpW9dziAsi7lRcyV4r8dhfG1qBidQWUXweUjnw+lliChJqQr+6XD71K41oEIC3Mx1KStovEmlzm+MkGZHnHA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.14.54.tgz}
+    name: esbuild-linux-s390x
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-netbsd-64/0.14.54:
+    resolution: {integrity: sha512-PR01lmIMnfJTgeU9VJTDY9ZerDWVFIUzAtJuDHwwceppW7cQWjBBqP48NdeRtoP04/AtO9a7w3viI+PIDr6d+w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-netbsd-64/-/esbuild-netbsd-64-0.14.54.tgz}
+    name: esbuild-netbsd-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-openbsd-64/0.14.54:
+    resolution: {integrity: sha512-Qyk7ikT2o7Wu76UsvvDS5q0amJvmRzDyVlL0qf5VLsLchjCa1+IAvd8kTBgUxD7VBUUVgItLkk609ZHUc1oCaw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.54.tgz}
+    name: esbuild-openbsd-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-register/3.4.1_esbuild@0.14.54:
+    resolution: {integrity: sha512-iCgs88/1wA5dIRx4i65eSjbkgrQQQJGpY6Z1eD2XPlzrSjbgNtfkw2/rfSMzJ4dTtlOD8EZTxrIA3fyYp0FsMA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-register/-/esbuild-register-3.4.1.tgz}
+    id: npm.urbanic-inc.com/esbuild-register/3.4.1
+    name: esbuild-register
+    version: 3.4.1
+    peerDependencies:
+      esbuild: '>=0.12 <1'
+    dependencies:
+      debug: npm.urbanic-inc.com/debug/4.3.4
+      esbuild: npm.urbanic-inc.com/esbuild/0.14.54
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/esbuild-sunos-64/0.14.54:
+    resolution: {integrity: sha512-28GZ24KmMSeKi5ueWzMcco6EBHStL3B6ubM7M51RmPwXQGLe0teBGJocmWhgwccA1GeFXqxzILIxXpHbl9Q/Kw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-sunos-64/-/esbuild-sunos-64-0.14.54.tgz}
+    name: esbuild-sunos-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-windows-32/0.14.54:
+    resolution: {integrity: sha512-T+rdZW19ql9MjS7pixmZYVObd9G7kcaZo+sETqNH4RCkuuYSuv9AGHUVnPoP9hhuE1WM1ZimHz1CIBHBboLU7w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-windows-32/-/esbuild-windows-32-0.14.54.tgz}
+    name: esbuild-windows-32
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-windows-64/0.14.54:
+    resolution: {integrity: sha512-AoHTRBUuYwXtZhjXZbA1pGfTo8cJo3vZIcWGLiUcTNgHpJJMC1rVA44ZereBHMJtotyN71S8Qw0npiCIkW96cQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-windows-64/-/esbuild-windows-64-0.14.54.tgz}
+    name: esbuild-windows-64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild-windows-arm64/0.14.54:
+    resolution: {integrity: sha512-M0kuUvXhot1zOISQGXwWn6YtS+Y/1RT9WrVIOywZnJHo3jCDyewAc79aKNQWFCQm+xNHVTq9h8dZKvygoXQQRg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.54.tgz}
+    name: esbuild-windows-arm64
+    version: 0.14.54
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/esbuild/0.14.54:
+    resolution: {integrity: sha512-Cy9llcy8DvET5uznocPyqL3BFRrFXSVqbgpMJ9Wz8oVjZlh/zUSNbPRbov0VX7VxN2JH1Oa0uNxZ7eLRb62pJA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esbuild/-/esbuild-0.14.54.tgz}
+    name: esbuild
+    version: 0.14.54
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/linux-loong64': npm.urbanic-inc.com/@esbuild/linux-loong64/0.14.54
+      esbuild-android-64: npm.urbanic-inc.com/esbuild-android-64/0.14.54
+      esbuild-android-arm64: npm.urbanic-inc.com/esbuild-android-arm64/0.14.54
+      esbuild-darwin-64: npm.urbanic-inc.com/esbuild-darwin-64/0.14.54
+      esbuild-darwin-arm64: npm.urbanic-inc.com/esbuild-darwin-arm64/0.14.54
+      esbuild-freebsd-64: npm.urbanic-inc.com/esbuild-freebsd-64/0.14.54
+      esbuild-freebsd-arm64: npm.urbanic-inc.com/esbuild-freebsd-arm64/0.14.54
+      esbuild-linux-32: npm.urbanic-inc.com/esbuild-linux-32/0.14.54
+      esbuild-linux-64: npm.urbanic-inc.com/esbuild-linux-64/0.14.54
+      esbuild-linux-arm: npm.urbanic-inc.com/esbuild-linux-arm/0.14.54
+      esbuild-linux-arm64: npm.urbanic-inc.com/esbuild-linux-arm64/0.14.54
+      esbuild-linux-mips64le: npm.urbanic-inc.com/esbuild-linux-mips64le/0.14.54
+      esbuild-linux-ppc64le: npm.urbanic-inc.com/esbuild-linux-ppc64le/0.14.54
+      esbuild-linux-riscv64: npm.urbanic-inc.com/esbuild-linux-riscv64/0.14.54
+      esbuild-linux-s390x: npm.urbanic-inc.com/esbuild-linux-s390x/0.14.54
+      esbuild-netbsd-64: npm.urbanic-inc.com/esbuild-netbsd-64/0.14.54
+      esbuild-openbsd-64: npm.urbanic-inc.com/esbuild-openbsd-64/0.14.54
+      esbuild-sunos-64: npm.urbanic-inc.com/esbuild-sunos-64/0.14.54
+      esbuild-windows-32: npm.urbanic-inc.com/esbuild-windows-32/0.14.54
+      esbuild-windows-64: npm.urbanic-inc.com/esbuild-windows-64/0.14.54
+      esbuild-windows-arm64: npm.urbanic-inc.com/esbuild-windows-arm64/0.14.54
+    dev: false
+
+  npm.urbanic-inc.com/escalade/3.1.1:
+    resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/escalade/-/escalade-3.1.1.tgz}
+    name: escalade
+    version: 3.1.1
+    engines: {node: '>=6'}
+    dev: true
+
+  npm.urbanic-inc.com/escape-string-regexp/1.0.5:
+    resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz}
+    name: escape-string-regexp
+    version: 1.0.5
+    engines: {node: '>=0.8.0'}
+    dev: false
+
+  npm.urbanic-inc.com/eslint-scope/5.1.1:
+    resolution: {integrity: sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/eslint-scope/-/eslint-scope-5.1.1.tgz}
+    name: eslint-scope
+    version: 5.1.1
+    engines: {node: '>=8.0.0'}
+    dependencies:
+      esrecurse: npm.urbanic-inc.com/esrecurse/4.3.0
+      estraverse: npm.urbanic-inc.com/estraverse/4.3.0
+    dev: true
+
+  npm.urbanic-inc.com/esrecurse/4.3.0:
+    resolution: {integrity: sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/esrecurse/-/esrecurse-4.3.0.tgz}
+    name: esrecurse
+    version: 4.3.0
+    engines: {node: '>=4.0'}
+    dependencies:
+      estraverse: npm.urbanic-inc.com/estraverse/5.3.0
+    dev: true
+
+  npm.urbanic-inc.com/estraverse/4.3.0:
+    resolution: {integrity: sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/estraverse/-/estraverse-4.3.0.tgz}
+    name: estraverse
+    version: 4.3.0
+    engines: {node: '>=4.0'}
+    dev: true
+
+  npm.urbanic-inc.com/estraverse/5.3.0:
+    resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/estraverse/-/estraverse-5.3.0.tgz}
+    name: estraverse
+    version: 5.3.0
+    engines: {node: '>=4.0'}
+    dev: true
+
+  npm.urbanic-inc.com/estree-walker/2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/estree-walker/-/estree-walker-2.0.2.tgz}
+    name: estree-walker
+    version: 2.0.2
+    dev: false
+
+  npm.urbanic-inc.com/events/3.3.0:
+    resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/events/-/events-3.3.0.tgz}
+    name: events
+    version: 3.3.0
+    engines: {node: '>=0.8.x'}
+
+  npm.urbanic-inc.com/fast-deep-equal/3.1.3:
+    resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz}
+    name: fast-deep-equal
+    version: 3.1.3
+    dev: true
+
+  npm.urbanic-inc.com/fast-glob/3.2.12:
+    resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fast-glob/-/fast-glob-3.2.12.tgz}
+    name: fast-glob
+    version: 3.2.12
+    engines: {node: '>=8.6.0'}
+    dependencies:
+      '@nodelib/fs.stat': npm.urbanic-inc.com/@nodelib/fs.stat/2.0.5
+      '@nodelib/fs.walk': npm.urbanic-inc.com/@nodelib/fs.walk/1.2.8
+      glob-parent: npm.urbanic-inc.com/glob-parent/5.1.2
+      merge2: npm.urbanic-inc.com/merge2/1.4.1
+      micromatch: npm.urbanic-inc.com/micromatch/4.0.5
+    dev: false
+
+  npm.urbanic-inc.com/fast-json-stable-stringify/2.1.0:
+    resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz}
+    name: fast-json-stable-stringify
+    version: 2.1.0
+    dev: true
+
+  npm.urbanic-inc.com/fastq/1.14.0:
+    resolution: {integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fastq/-/fastq-1.14.0.tgz}
+    name: fastq
+    version: 1.14.0
+    dependencies:
+      reusify: npm.urbanic-inc.com/reusify/1.0.4
+    dev: false
+
+  npm.urbanic-inc.com/filelist/1.0.4:
+    resolution: {integrity: sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/filelist/-/filelist-1.0.4.tgz}
+    name: filelist
+    version: 1.0.4
+    dependencies:
+      minimatch: npm.urbanic-inc.com/minimatch/5.1.1
+    dev: false
+
+  npm.urbanic-inc.com/fill-range/7.0.1:
+    resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fill-range/-/fill-range-7.0.1.tgz}
+    name: fill-range
+    version: 7.0.1
+    engines: {node: '>=8'}
+    dependencies:
+      to-regex-range: npm.urbanic-inc.com/to-regex-range/5.0.1
+    dev: false
+
+  npm.urbanic-inc.com/find-up/5.0.0:
+    resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/find-up/-/find-up-5.0.0.tgz}
+    name: find-up
+    version: 5.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      locate-path: npm.urbanic-inc.com/locate-path/6.0.0
+      path-exists: npm.urbanic-inc.com/path-exists/4.0.0
+    dev: false
+
+  npm.urbanic-inc.com/fs-extra/10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fs-extra/-/fs-extra-10.1.0.tgz}
+    name: fs-extra
+    version: 10.1.0
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+      jsonfile: npm.urbanic-inc.com/jsonfile/6.1.0
+      universalify: npm.urbanic-inc.com/universalify/2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/fs-extra/8.1.0:
+    resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fs-extra/-/fs-extra-8.1.0.tgz}
+    name: fs-extra
+    version: 8.1.0
+    engines: {node: '>=6 <7 || >=8'}
+    dependencies:
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+      jsonfile: npm.urbanic-inc.com/jsonfile/4.0.0
+      universalify: npm.urbanic-inc.com/universalify/0.1.2
+    dev: false
+
+  npm.urbanic-inc.com/fs.realpath/1.0.0:
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fs.realpath/-/fs.realpath-1.0.0.tgz}
+    name: fs.realpath
+    version: 1.0.0
+    dev: false
+
+  npm.urbanic-inc.com/fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/fsevents/-/fsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/gauge/2.7.4:
+    resolution: {integrity: sha512-14x4kjc6lkD3ltw589k0NrPD6cCNTD6CWoVUNpB85+DrtONoZn+Rug6xZU5RvSC4+TZPxA5AnBibQYAvZn41Hg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/gauge/-/gauge-2.7.4.tgz}
+    name: gauge
+    version: 2.7.4
+    dependencies:
+      aproba: npm.urbanic-inc.com/aproba/1.2.0
+      console-control-strings: npm.urbanic-inc.com/console-control-strings/1.1.0
+      has-unicode: npm.urbanic-inc.com/has-unicode/2.0.1
+      object-assign: npm.urbanic-inc.com/object-assign/4.1.1
+      signal-exit: npm.urbanic-inc.com/signal-exit/3.0.7
+      string-width: npm.urbanic-inc.com/string-width/1.0.2
+      strip-ansi: npm.urbanic-inc.com/strip-ansi/3.0.1
+      wide-align: npm.urbanic-inc.com/wide-align/1.1.5
+    dev: false
+
+  npm.urbanic-inc.com/glob-parent/5.1.2:
+    resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/glob-parent/-/glob-parent-5.1.2.tgz}
+    name: glob-parent
+    version: 5.1.2
+    engines: {node: '>= 6'}
+    dependencies:
+      is-glob: npm.urbanic-inc.com/is-glob/4.0.3
+    dev: false
+
+  npm.urbanic-inc.com/glob-to-regexp/0.4.1:
+    resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz}
+    name: glob-to-regexp
+    version: 0.4.1
+    dev: true
+
+  npm.urbanic-inc.com/glob/7.2.3:
+    resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/glob/-/glob-7.2.3.tgz}
+    name: glob
+    version: 7.2.3
+    dependencies:
+      fs.realpath: npm.urbanic-inc.com/fs.realpath/1.0.0
+      inflight: npm.urbanic-inc.com/inflight/1.0.6
+      inherits: npm.urbanic-inc.com/inherits/2.0.4
+      minimatch: npm.urbanic-inc.com/minimatch/3.1.2
+      once: npm.urbanic-inc.com/once/1.4.0
+      path-is-absolute: npm.urbanic-inc.com/path-is-absolute/1.0.1
+    dev: false
+
+  npm.urbanic-inc.com/globals/11.12.0:
+    resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/globals/-/globals-11.12.0.tgz}
+    name: globals
+    version: 11.12.0
+    engines: {node: '>=4'}
+    dev: false
+
+  npm.urbanic-inc.com/graceful-fs/4.2.10:
+    resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/graceful-fs/-/graceful-fs-4.2.10.tgz}
+    name: graceful-fs
+    version: 4.2.10
+
+  npm.urbanic-inc.com/has-flag/3.0.0:
+    resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/has-flag/-/has-flag-3.0.0.tgz}
+    name: has-flag
+    version: 3.0.0
+    engines: {node: '>=4'}
+    dev: false
+
+  npm.urbanic-inc.com/has-flag/4.0.0:
+    resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/has-flag/-/has-flag-4.0.0.tgz}
+    name: has-flag
+    version: 4.0.0
+    engines: {node: '>=8'}
+
+  npm.urbanic-inc.com/has-unicode/2.0.1:
+    resolution: {integrity: sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/has-unicode/-/has-unicode-2.0.1.tgz}
+    name: has-unicode
+    version: 2.0.1
+    dev: false
+
+  npm.urbanic-inc.com/history/5.3.0:
+    resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/history/-/history-5.3.0.tgz}
+    name: history
+    version: 5.3.0
+    dependencies:
+      '@babel/runtime': npm.urbanic-inc.com/@babel/runtime/7.20.6
+    dev: false
+
+  npm.urbanic-inc.com/html-entities/2.3.3:
+    resolution: {integrity: sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/html-entities/-/html-entities-2.3.3.tgz}
+    name: html-entities
+    version: 2.3.3
+    dev: false
+
+  npm.urbanic-inc.com/iconv-lite/0.4.24:
+    resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/iconv-lite/-/iconv-lite-0.4.24.tgz}
+    name: iconv-lite
+    version: 0.4.24
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: npm.urbanic-inc.com/safer-buffer/2.1.2
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/image-size/0.5.5:
+    resolution: {integrity: sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/image-size/-/image-size-0.5.5.tgz}
+    name: image-size
+    version: 0.5.5
+    engines: {node: '>=0.10.0'}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/immutable/4.1.0:
+    resolution: {integrity: sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/immutable/-/immutable-4.1.0.tgz}
+    name: immutable
+    version: 4.1.0
+    dev: false
+
+  npm.urbanic-inc.com/inflight/1.0.6:
+    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/inflight/-/inflight-1.0.6.tgz}
+    name: inflight
+    version: 1.0.6
+    dependencies:
+      once: npm.urbanic-inc.com/once/1.4.0
+      wrappy: npm.urbanic-inc.com/wrappy/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/inherits/2.0.4:
+    resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/inherits/-/inherits-2.0.4.tgz}
+    name: inherits
+    version: 2.0.4
+    dev: false
+
+  npm.urbanic-inc.com/intersection-observer/0.12.2:
+    resolution: {integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/intersection-observer/-/intersection-observer-0.12.2.tgz}
+    name: intersection-observer
+    version: 0.12.2
+    dev: false
+
+  npm.urbanic-inc.com/is-binary-path/2.1.0:
+    resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-binary-path/-/is-binary-path-2.1.0.tgz}
+    name: is-binary-path
+    version: 2.1.0
+    engines: {node: '>=8'}
+    dependencies:
+      binary-extensions: npm.urbanic-inc.com/binary-extensions/2.2.0
+    dev: false
+
+  npm.urbanic-inc.com/is-docker/2.2.1:
+    resolution: {integrity: sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-docker/-/is-docker-2.2.1.tgz}
+    name: is-docker
+    version: 2.2.1
+    engines: {node: '>=8'}
+    hasBin: true
+    dev: false
+
+  npm.urbanic-inc.com/is-extglob/2.1.1:
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-extglob/-/is-extglob-2.1.1.tgz}
+    name: is-extglob
+    version: 2.1.1
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/is-fullwidth-code-point/1.0.0:
+    resolution: {integrity: sha512-1pqUqRjkhPJ9miNq9SwMfdvi6lBJcd6eFxvfaivQhaH3SgisfiuudvFntdKOmxuee/77l+FPjKrQjWvmPjWrRw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz}
+    name: is-fullwidth-code-point
+    version: 1.0.0
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      number-is-nan: npm.urbanic-inc.com/number-is-nan/1.0.1
+    dev: false
+
+  npm.urbanic-inc.com/is-glob/4.0.3:
+    resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-glob/-/is-glob-4.0.3.tgz}
+    name: is-glob
+    version: 4.0.3
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      is-extglob: npm.urbanic-inc.com/is-extglob/2.1.1
+    dev: false
+
+  npm.urbanic-inc.com/is-number/7.0.0:
+    resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-number/-/is-number-7.0.0.tgz}
+    name: is-number
+    version: 7.0.0
+    engines: {node: '>=0.12.0'}
+    dev: false
+
+  npm.urbanic-inc.com/is-what/3.14.1:
+    resolution: {integrity: sha512-sNxgpk9793nzSs7bA6JQJGeIuRBQhAaNGG77kzYQgMkrID+lS6SlK07K5LaptscDlSaIgH+GPFzf+d75FVxozA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-what/-/is-what-3.14.1.tgz}
+    name: is-what
+    version: 3.14.1
+    dev: false
+
+  npm.urbanic-inc.com/is-wsl/2.2.0:
+    resolution: {integrity: sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/is-wsl/-/is-wsl-2.2.0.tgz}
+    name: is-wsl
+    version: 2.2.0
+    engines: {node: '>=8'}
+    dependencies:
+      is-docker: npm.urbanic-inc.com/is-docker/2.2.1
+    dev: false
+
+  npm.urbanic-inc.com/isarray/1.0.0:
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/isarray/-/isarray-1.0.0.tgz}
+    name: isarray
+    version: 1.0.0
+    dev: false
+
+  npm.urbanic-inc.com/isexe/2.0.0:
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/isexe/-/isexe-2.0.0.tgz}
+    name: isexe
+    version: 2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/jake/10.8.5:
+    resolution: {integrity: sha512-sVpxYeuAhWt0OTWITwT98oyV0GsXyMlXCF+3L1SuafBVUIr/uILGRB+NqwkzhgXKvoJpDIpQvqkUALgdmQsQxw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/jake/-/jake-10.8.5.tgz}
+    name: jake
+    version: 10.8.5
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      async: npm.urbanic-inc.com/async/3.2.4
+      chalk: npm.urbanic-inc.com/chalk/4.1.2
+      filelist: npm.urbanic-inc.com/filelist/1.0.4
+      minimatch: npm.urbanic-inc.com/minimatch/3.1.2
+    dev: false
+
+  npm.urbanic-inc.com/jest-worker/27.5.1:
+    resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/jest-worker/-/jest-worker-27.5.1.tgz}
+    name: jest-worker
+    version: 27.5.1
+    engines: {node: '>= 10.13.0'}
+    dependencies:
+      '@types/node': npm.urbanic-inc.com/@types/node/18.11.14
+      merge-stream: npm.urbanic-inc.com/merge-stream/2.0.0
+      supports-color: npm.urbanic-inc.com/supports-color/8.1.1
+
+  npm.urbanic-inc.com/js-cookie/2.2.1:
+    resolution: {integrity: sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/js-cookie/-/js-cookie-2.2.1.tgz}
+    name: js-cookie
+    version: 2.2.1
+    dev: false
+
+  npm.urbanic-inc.com/js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/js-tokens/-/js-tokens-4.0.0.tgz}
+    name: js-tokens
+    version: 4.0.0
+    dev: false
+
+  npm.urbanic-inc.com/jsesc/2.5.2:
+    resolution: {integrity: sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/jsesc/-/jsesc-2.5.2.tgz}
+    name: jsesc
+    version: 2.5.2
+    engines: {node: '>=4'}
+    hasBin: true
+    dev: false
+
+  npm.urbanic-inc.com/json-parse-even-better-errors/2.3.1:
+    resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz}
+    name: json-parse-even-better-errors
+    version: 2.3.1
+    dev: true
+
+  npm.urbanic-inc.com/json-schema-traverse/0.4.1:
+    resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz}
+    name: json-schema-traverse
+    version: 0.4.1
+    dev: true
+
+  npm.urbanic-inc.com/json5/2.2.1:
+    resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/json5/-/json5-2.2.1.tgz}
+    name: json5
+    version: 2.2.1
+    engines: {node: '>=6'}
+    hasBin: true
+    dev: false
+
+  npm.urbanic-inc.com/jsonfile/4.0.0:
+    resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/jsonfile/-/jsonfile-4.0.0.tgz}
+    name: jsonfile
+    version: 4.0.0
+    optionalDependencies:
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+    dev: false
+
+  npm.urbanic-inc.com/jsonfile/6.1.0:
+    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/jsonfile/-/jsonfile-6.1.0.tgz}
+    name: jsonfile
+    version: 6.1.0
+    dependencies:
+      universalify: npm.urbanic-inc.com/universalify/2.0.0
+    optionalDependencies:
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+    dev: false
+
+  npm.urbanic-inc.com/less/4.1.2:
+    resolution: {integrity: sha512-EoQp/Et7OSOVu0aJknJOtlXZsnr8XE8KwuzTHOLeVSEx8pVWUICc8Q0VYRHgzyjX78nMEyC/oztWFbgyhtNfDA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/less/-/less-4.1.2.tgz}
+    name: less
+    version: 4.1.2
+    engines: {node: '>=6'}
+    hasBin: true
+    dependencies:
+      copy-anything: npm.urbanic-inc.com/copy-anything/2.0.6
+      parse-node-version: npm.urbanic-inc.com/parse-node-version/1.0.1
+      tslib: npm.urbanic-inc.com/tslib/2.4.1
+    optionalDependencies:
+      errno: npm.urbanic-inc.com/errno/0.1.8
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+      image-size: npm.urbanic-inc.com/image-size/0.5.5
+      make-dir: npm.urbanic-inc.com/make-dir/2.1.0
+      mime: npm.urbanic-inc.com/mime/1.6.0
+      needle: npm.urbanic-inc.com/needle/2.9.1
+      source-map: npm.urbanic-inc.com/source-map/0.6.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  npm.urbanic-inc.com/loader-runner/4.3.0:
+    resolution: {integrity: sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/loader-runner/-/loader-runner-4.3.0.tgz}
+    name: loader-runner
+    version: 4.3.0
+    engines: {node: '>=6.11.5'}
+    dev: true
+
+  npm.urbanic-inc.com/locate-path/6.0.0:
+    resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/locate-path/-/locate-path-6.0.0.tgz}
+    name: locate-path
+    version: 6.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      p-locate: npm.urbanic-inc.com/p-locate/5.0.0
+    dev: false
+
+  npm.urbanic-inc.com/lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/lodash/-/lodash-4.17.21.tgz}
+    name: lodash
+    version: 4.17.21
+    dev: false
+
+  npm.urbanic-inc.com/loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/loose-envify/-/loose-envify-1.4.0.tgz}
+    name: loose-envify
+    version: 1.4.0
+    hasBin: true
+    dependencies:
+      js-tokens: npm.urbanic-inc.com/js-tokens/4.0.0
+    dev: false
+
+  npm.urbanic-inc.com/lru-cache/6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/lru-cache/-/lru-cache-6.0.0.tgz}
+    name: lru-cache
+    version: 6.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      yallist: npm.urbanic-inc.com/yallist/4.0.0
+    dev: false
+
+  npm.urbanic-inc.com/make-dir/2.1.0:
+    resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/make-dir/-/make-dir-2.1.0.tgz}
+    name: make-dir
+    version: 2.1.0
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      pify: npm.urbanic-inc.com/pify/4.0.1
+      semver: npm.urbanic-inc.com/semver/5.7.1
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/merge-stream/2.0.0:
+    resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/merge-stream/-/merge-stream-2.0.0.tgz}
+    name: merge-stream
+    version: 2.0.0
+
+  npm.urbanic-inc.com/merge2/1.4.1:
+    resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/merge2/-/merge2-1.4.1.tgz}
+    name: merge2
+    version: 1.4.1
+    engines: {node: '>= 8'}
+    dev: false
+
+  npm.urbanic-inc.com/micromatch/4.0.5:
+    resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/micromatch/-/micromatch-4.0.5.tgz}
+    name: micromatch
+    version: 4.0.5
+    engines: {node: '>=8.6'}
+    dependencies:
+      braces: npm.urbanic-inc.com/braces/3.0.2
+      picomatch: npm.urbanic-inc.com/picomatch/2.3.1
+    dev: false
+
+  npm.urbanic-inc.com/mime-db/1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/mime-db/-/mime-db-1.52.0.tgz}
+    name: mime-db
+    version: 1.52.0
+    engines: {node: '>= 0.6'}
+    dev: true
+
+  npm.urbanic-inc.com/mime-types/2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/mime-types/-/mime-types-2.1.35.tgz}
+    name: mime-types
+    version: 2.1.35
+    engines: {node: '>= 0.6'}
+    dependencies:
+      mime-db: npm.urbanic-inc.com/mime-db/1.52.0
+    dev: true
+
+  npm.urbanic-inc.com/mime/1.6.0:
+    resolution: {integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/mime/-/mime-1.6.0.tgz}
+    name: mime
+    version: 1.6.0
+    engines: {node: '>=4'}
+    hasBin: true
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/minimatch/3.1.2:
+    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/minimatch/-/minimatch-3.1.2.tgz}
+    name: minimatch
+    version: 3.1.2
+    dependencies:
+      brace-expansion: npm.urbanic-inc.com/brace-expansion/1.1.11
+    dev: false
+
+  npm.urbanic-inc.com/minimatch/5.1.1:
+    resolution: {integrity: sha512-362NP+zlprccbEt/SkxKfRMHnNY85V74mVnpUpNyr3F35covl09Kec7/sEFLt3RA4oXmewtoaanoIf67SE5Y5g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/minimatch/-/minimatch-5.1.1.tgz}
+    name: minimatch
+    version: 5.1.1
+    engines: {node: '>=10'}
+    dependencies:
+      brace-expansion: npm.urbanic-inc.com/brace-expansion/2.0.1
+    dev: false
+
+  npm.urbanic-inc.com/minimist/1.2.7:
+    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/minimist/-/minimist-1.2.7.tgz}
+    name: minimist
+    version: 1.2.7
+    dev: false
+
+  npm.urbanic-inc.com/mkdirp/0.5.6:
+    resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/mkdirp/-/mkdirp-0.5.6.tgz}
+    name: mkdirp
+    version: 0.5.6
+    hasBin: true
+    dependencies:
+      minimist: npm.urbanic-inc.com/minimist/1.2.7
+    dev: false
+
+  npm.urbanic-inc.com/mrmime/1.0.1:
+    resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/mrmime/-/mrmime-1.0.1.tgz}
+    name: mrmime
+    version: 1.0.1
+    engines: {node: '>=10'}
+    dev: false
+
+  npm.urbanic-inc.com/ms/2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ms/-/ms-2.1.2.tgz}
+    name: ms
+    version: 2.1.2
+    dev: false
+
+  npm.urbanic-inc.com/ms/2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/ms/-/ms-2.1.3.tgz}
+    name: ms
+    version: 2.1.3
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/nanoid/3.3.4:
+    resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/nanoid/-/nanoid-3.3.4.tgz}
+    name: nanoid
+    version: 3.3.4
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: false
+
+  npm.urbanic-inc.com/needle/2.9.1:
+    resolution: {integrity: sha512-6R9fqJ5Zcmf+uYaFgdIHmLwNldn5HbK8L5ybn7Uz+ylX/rnOsSp1AHcvQSrCaFN+qNM1wpymHqD7mVasEOlHGQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/needle/-/needle-2.9.1.tgz}
+    name: needle
+    version: 2.9.1
+    engines: {node: '>= 4.4.x'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      debug: npm.urbanic-inc.com/debug/3.2.7
+      iconv-lite: npm.urbanic-inc.com/iconv-lite/0.4.24
+      sax: npm.urbanic-inc.com/sax/1.2.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/neo-async/2.6.2:
+    resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/neo-async/-/neo-async-2.6.2.tgz}
+    name: neo-async
+    version: 2.6.2
+    dev: true
+
+  npm.urbanic-inc.com/node-releases/2.0.6:
+    resolution: {integrity: sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/node-releases/-/node-releases-2.0.6.tgz}
+    name: node-releases
+    version: 2.0.6
+    dev: true
+
+  npm.urbanic-inc.com/normalize-path/3.0.0:
+    resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/normalize-path/-/normalize-path-3.0.0.tgz}
+    name: normalize-path
+    version: 3.0.0
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/npmlog/4.1.2:
+    resolution: {integrity: sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/npmlog/-/npmlog-4.1.2.tgz}
+    name: npmlog
+    version: 4.1.2
+    dependencies:
+      are-we-there-yet: npm.urbanic-inc.com/are-we-there-yet/1.1.7
+      console-control-strings: npm.urbanic-inc.com/console-control-strings/1.1.0
+      gauge: npm.urbanic-inc.com/gauge/2.7.4
+      set-blocking: npm.urbanic-inc.com/set-blocking/2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/number-is-nan/1.0.1:
+    resolution: {integrity: sha512-4jbtZXNAsfZbAHiiqjLPBiCl16dES1zI4Hpzzxw61Tk+loF+sBDBKx1ICKKKwIqQ7M0mFn1TmkN7euSncWgHiQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/number-is-nan/-/number-is-nan-1.0.1.tgz}
+    name: number-is-nan
+    version: 1.0.1
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/object-assign/4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/object-assign/-/object-assign-4.1.1.tgz}
+    name: object-assign
+    version: 4.1.1
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/once/1.4.0:
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/once/-/once-1.4.0.tgz}
+    name: once
+    version: 1.4.0
+    dependencies:
+      wrappy: npm.urbanic-inc.com/wrappy/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/open/8.4.0:
+    resolution: {integrity: sha512-XgFPPM+B28FtCCgSb9I+s9szOC1vZRSwgWsRUA5ylIxRTgKozqjOCrVOqGsYABPYK5qnfqClxZTFBa8PKt2v6Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/open/-/open-8.4.0.tgz}
+    name: open
+    version: 8.4.0
+    engines: {node: '>=12'}
+    dependencies:
+      define-lazy-prop: npm.urbanic-inc.com/define-lazy-prop/2.0.0
+      is-docker: npm.urbanic-inc.com/is-docker/2.2.1
+      is-wsl: npm.urbanic-inc.com/is-wsl/2.2.0
+    dev: false
+
+  npm.urbanic-inc.com/p-limit/3.1.0:
+    resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/p-limit/-/p-limit-3.1.0.tgz}
+    name: p-limit
+    version: 3.1.0
+    engines: {node: '>=10'}
+    dependencies:
+      yocto-queue: npm.urbanic-inc.com/yocto-queue/0.1.0
+    dev: false
+
+  npm.urbanic-inc.com/p-locate/5.0.0:
+    resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/p-locate/-/p-locate-5.0.0.tgz}
+    name: p-locate
+    version: 5.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      p-limit: npm.urbanic-inc.com/p-limit/3.1.0
+    dev: false
+
+  npm.urbanic-inc.com/parse-node-version/1.0.1:
+    resolution: {integrity: sha512-3YHlOa/JgH6Mnpr05jP9eDG254US9ek25LyIxZlDItp2iJtwyaXQb57lBYLdT3MowkUFYEV2XXNAYIPlESvJlA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/parse-node-version/-/parse-node-version-1.0.1.tgz}
+    name: parse-node-version
+    version: 1.0.1
+    engines: {node: '>= 0.10'}
+    dev: false
+
+  npm.urbanic-inc.com/path-exists/4.0.0:
+    resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/path-exists/-/path-exists-4.0.0.tgz}
+    name: path-exists
+    version: 4.0.0
+    engines: {node: '>=8'}
+    dev: false
+
+  npm.urbanic-inc.com/path-is-absolute/1.0.1:
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz}
+    name: path-is-absolute
+    version: 1.0.1
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/path-key/3.1.1:
+    resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/path-key/-/path-key-3.1.1.tgz}
+    name: path-key
+    version: 3.1.1
+    engines: {node: '>=8'}
+    dev: false
+
+  npm.urbanic-inc.com/path-to-regexp/6.2.1:
+    resolution: {integrity: sha512-JLyh7xT1kizaEvcaXOQwOc2/Yhw6KZOvPf1S8401UyLk86CU79LN3vl7ztXGm/pZ+YjoyAJ4rxmHwbkBXJX+yw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/path-to-regexp/-/path-to-regexp-6.2.1.tgz}
+    name: path-to-regexp
+    version: 6.2.1
+    dev: false
+
+  npm.urbanic-inc.com/picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/picocolors/-/picocolors-1.0.0.tgz}
+    name: picocolors
+    version: 1.0.0
+
+  npm.urbanic-inc.com/picomatch/2.3.1:
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/picomatch/-/picomatch-2.3.1.tgz}
+    name: picomatch
+    version: 2.3.1
+    engines: {node: '>=8.6'}
+    dev: false
+
+  npm.urbanic-inc.com/pify/4.0.1:
+    resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/pify/-/pify-4.0.1.tgz}
+    name: pify
+    version: 4.0.1
+    engines: {node: '>=6'}
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/postcss/8.4.12:
+    resolution: {integrity: sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/postcss/-/postcss-8.4.12.tgz}
+    name: postcss
+    version: 8.4.12
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: npm.urbanic-inc.com/nanoid/3.3.4
+      picocolors: npm.urbanic-inc.com/picocolors/1.0.0
+      source-map-js: npm.urbanic-inc.com/source-map-js/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/process-nextick-args/2.0.1:
+    resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz}
+    name: process-nextick-args
+    version: 2.0.1
+    dev: false
+
+  npm.urbanic-inc.com/process/0.11.10:
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/process/-/process-0.11.10.tgz}
+    name: process
+    version: 0.11.10
+    engines: {node: '>= 0.6.0'}
+    dev: false
+
+  npm.urbanic-inc.com/prr/1.0.1:
+    resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/prr/-/prr-1.0.1.tgz}
+    name: prr
+    version: 1.0.1
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/punycode/2.1.1:
+    resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/punycode/-/punycode-2.1.1.tgz}
+    name: punycode
+    version: 2.1.1
+    engines: {node: '>=6'}
+    dev: true
+
+  npm.urbanic-inc.com/queue-microtask/1.2.3:
+    resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
+    name: queue-microtask
+    version: 1.2.3
+    dev: false
+
+  npm.urbanic-inc.com/randombytes/2.1.0:
+    resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/randombytes/-/randombytes-2.1.0.tgz}
+    name: randombytes
+    version: 2.1.0
+    dependencies:
+      safe-buffer: npm.urbanic-inc.com/safe-buffer/5.2.1
+    dev: true
+
+  npm.urbanic-inc.com/rc-field-form/1.27.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-HGqxHnmGQgkPApEcikV4qTg3BLPC82uB/cwBDftDt1pYaqitJfSl5TFTTUMKVEJVT5RqJ2Zi68ME1HmIMX2HAw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/rc-field-form/-/rc-field-form-1.27.3.tgz}
+    id: npm.urbanic-inc.com/rc-field-form/1.27.3
+    name: rc-field-form
+    version: 1.27.3
+    engines: {node: '>=8.x'}
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+    dependencies:
+      '@babel/runtime': npm.urbanic-inc.com/@babel/runtime/7.20.6
+      async-validator: npm.urbanic-inc.com/async-validator/4.2.5
+      rc-util: npm.urbanic-inc.com/rc-util/5.25.3_biqbaboplfbrettd7655fr4n2y
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/rc-util/5.25.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-+M+44T6UdM4iOd4QXRQKQjitOY26vC5pgFPNSo0XsY9OWzpHvy77BI55eL9Q9oDMUHzVuRNzzUkK1RI2W3n+ZQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/rc-util/-/rc-util-5.25.3.tgz}
+    id: npm.urbanic-inc.com/rc-util/5.25.3
+    name: rc-util
+    version: 5.25.3
+    peerDependencies:
+      react: '>=16.9.0'
+      react-dom: '>=16.9.0'
+    dependencies:
+      '@babel/runtime': npm.urbanic-inc.com/@babel/runtime/7.20.6
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+      react-is: npm.urbanic-inc.com/react-is/16.13.1
+      shallowequal: npm.urbanic-inc.com/shallowequal/1.1.0
+    dev: false
+
+  npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react-dom/-/react-dom-18.2.0.tgz}
+    id: npm.urbanic-inc.com/react-dom/18.2.0
+    name: react-dom
+    version: 18.2.0
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: npm.urbanic-inc.com/loose-envify/1.4.0
+      react: npm.urbanic-inc.com/react/18.2.0
+      scheduler: npm.urbanic-inc.com/scheduler/0.23.0
+    dev: false
+
+  npm.urbanic-inc.com/react-is/16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react-is/-/react-is-16.13.1.tgz}
+    name: react-is
+    version: 16.13.1
+    dev: false
+
+  npm.urbanic-inc.com/react-is/17.0.2:
+    resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react-is/-/react-is-17.0.2.tgz}
+    name: react-is
+    version: 17.0.2
+    dev: false
+
+  npm.urbanic-inc.com/react-refresh/0.14.0:
+    resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react-refresh/-/react-refresh-0.14.0.tgz}
+    name: react-refresh
+    version: 0.14.0
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/react-router-dom/6.4.5_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-a7HsgikBR0wNfroBHcZUCd9+mLRqZS8R5U1Z1mzLWxFXEkUT3vR1XXmSIVoVpxVX8Bar0nQYYYc9Yipq8dWwAA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react-router-dom/-/react-router-dom-6.4.5.tgz}
+    id: npm.urbanic-inc.com/react-router-dom/6.4.5
+    name: react-router-dom
+    version: 6.4.5
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': npm.urbanic-inc.com/@remix-run/router/1.0.5
+      react: npm.urbanic-inc.com/react/18.2.0
+      react-dom: npm.urbanic-inc.com/react-dom/18.2.0_react@18.2.0
+      react-router: npm.urbanic-inc.com/react-router/6.4.5_react@18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/react-router/6.4.5_react@18.2.0:
+    resolution: {integrity: sha512-1RQJ8bM70YEumHIlNUYc6mFfUDoWa5EgPDenK/fq0bxD8DYpQUi/S6Zoft+9DBrh2xmtg92N5HMAJgGWDhKJ5Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react-router/-/react-router-6.4.5.tgz}
+    id: npm.urbanic-inc.com/react-router/6.4.5
+    name: react-router
+    version: 6.4.5
+    engines: {node: '>=14'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': npm.urbanic-inc.com/@remix-run/router/1.0.5
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/react/-/react-18.2.0.tgz}
+    name: react
+    version: 18.2.0
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: npm.urbanic-inc.com/loose-envify/1.4.0
+    dev: false
+
+  npm.urbanic-inc.com/readable-stream/2.3.7:
+    resolution: {integrity: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/readable-stream/-/readable-stream-2.3.7.tgz}
+    name: readable-stream
+    version: 2.3.7
+    dependencies:
+      core-util-is: npm.urbanic-inc.com/core-util-is/1.0.3
+      inherits: npm.urbanic-inc.com/inherits/2.0.4
+      isarray: npm.urbanic-inc.com/isarray/1.0.0
+      process-nextick-args: npm.urbanic-inc.com/process-nextick-args/2.0.1
+      safe-buffer: npm.urbanic-inc.com/safe-buffer/5.1.2
+      string_decoder: npm.urbanic-inc.com/string_decoder/1.1.1
+      util-deprecate: npm.urbanic-inc.com/util-deprecate/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/readdirp/3.6.0:
+    resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/readdirp/-/readdirp-3.6.0.tgz}
+    name: readdirp
+    version: 3.6.0
+    engines: {node: '>=8.10.0'}
+    dependencies:
+      picomatch: npm.urbanic-inc.com/picomatch/2.3.1
+    dev: false
+
+  npm.urbanic-inc.com/regenerator-runtime/0.13.11:
+    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz}
+    name: regenerator-runtime
+    version: 0.13.11
+    dev: false
+
+  npm.urbanic-inc.com/resize-observer-polyfill/1.5.1:
+    resolution: {integrity: sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz}
+    name: resize-observer-polyfill
+    version: 1.5.1
+    dev: false
+
+  npm.urbanic-inc.com/resolve.exports/1.1.0:
+    resolution: {integrity: sha512-J1l+Zxxp4XK3LUDZ9m60LRJF/mAe4z6a4xyabPHk7pvK5t35dACV32iIjJDFeWZFfZlO29w6SZ67knR0tHzJtQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/resolve.exports/-/resolve.exports-1.1.0.tgz}
+    name: resolve.exports
+    version: 1.1.0
+    engines: {node: '>=10'}
+    dev: false
+
+  npm.urbanic-inc.com/reusify/1.0.4:
+    resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/reusify/-/reusify-1.0.4.tgz}
+    name: reusify
+    version: 1.0.4
+    engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/rimraf/2.6.3:
+    resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/rimraf/-/rimraf-2.6.3.tgz}
+    name: rimraf
+    version: 2.6.3
+    hasBin: true
+    dependencies:
+      glob: npm.urbanic-inc.com/glob/7.2.3
+    dev: false
+
+  npm.urbanic-inc.com/run-parallel/1.2.0:
+    resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/run-parallel/-/run-parallel-1.2.0.tgz}
+    name: run-parallel
+    version: 1.2.0
+    dependencies:
+      queue-microtask: npm.urbanic-inc.com/queue-microtask/1.2.3
+    dev: false
+
+  npm.urbanic-inc.com/runes/0.4.3:
+    resolution: {integrity: sha512-K6p9y4ZyL9wPzA+PMDloNQPfoDGTiFYDvdlXznyGKgD10BJpcAosvATKrExRKOrNLgD8E7Um7WGW0lxsnOuNLg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/runes/-/runes-0.4.3.tgz}
+    name: runes
+    version: 0.4.3
+    engines: {node: '>=4.0.0'}
+    dev: false
+
+  npm.urbanic-inc.com/safe-buffer/5.1.2:
+    resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/safe-buffer/-/safe-buffer-5.1.2.tgz}
+    name: safe-buffer
+    version: 5.1.2
+    dev: false
+
+  npm.urbanic-inc.com/safe-buffer/5.2.1:
+    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/safe-buffer/-/safe-buffer-5.2.1.tgz}
+    name: safe-buffer
+    version: 5.2.1
+    dev: true
+
+  npm.urbanic-inc.com/safer-buffer/2.1.2:
+    resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/safer-buffer/-/safer-buffer-2.1.2.tgz}
+    name: safer-buffer
+    version: 2.1.2
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/sass/1.50.0:
+    resolution: {integrity: sha512-cLsD6MEZ5URXHStxApajEh7gW189kkjn4Rc8DQweMyF+o5HF5nfEz8QYLMlPsTOD88DknatTmBWkOcw5/LnJLQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/sass/-/sass-1.50.0.tgz}
+    name: sass
+    version: 1.50.0
+    engines: {node: '>=12.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: npm.urbanic-inc.com/chokidar/3.5.3
+      immutable: npm.urbanic-inc.com/immutable/4.1.0
+      source-map-js: npm.urbanic-inc.com/source-map-js/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/sax/1.2.4:
+    resolution: {integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/sax/-/sax-1.2.4.tgz}
+    name: sax
+    version: 1.2.4
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/scheduler/-/scheduler-0.23.0.tgz}
+    name: scheduler
+    version: 0.23.0
+    dependencies:
+      loose-envify: npm.urbanic-inc.com/loose-envify/1.4.0
+    dev: false
+
+  npm.urbanic-inc.com/schema-utils/3.1.1:
+    resolution: {integrity: sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/schema-utils/-/schema-utils-3.1.1.tgz}
+    name: schema-utils
+    version: 3.1.1
+    engines: {node: '>= 10.13.0'}
+    dependencies:
+      '@types/json-schema': npm.urbanic-inc.com/@types/json-schema/7.0.11
+      ajv: npm.urbanic-inc.com/ajv/6.12.6
+      ajv-keywords: npm.urbanic-inc.com/ajv-keywords/3.5.2_ajv@6.12.6
+    dev: true
+
+  npm.urbanic-inc.com/screenfull/5.2.0:
+    resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/screenfull/-/screenfull-5.2.0.tgz}
+    name: screenfull
+    version: 5.2.0
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/semver/5.7.1:
+    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/semver/-/semver-5.7.1.tgz}
+    name: semver
+    version: 5.7.1
+    hasBin: true
+    dev: false
+    optional: true
+
+  npm.urbanic-inc.com/semver/7.3.8:
+    resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/semver/-/semver-7.3.8.tgz}
+    name: semver
+    version: 7.3.8
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: npm.urbanic-inc.com/lru-cache/6.0.0
+    dev: false
+
+  npm.urbanic-inc.com/serialize-javascript/6.0.0:
+    resolution: {integrity: sha512-Qr3TosvguFt8ePWqsvRfrKyQXIiW+nGbYpy8XK24NQHE83caxWt+mIymTT19DGFbNWNLfEwsrkSmN64lVWB9ag==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/serialize-javascript/-/serialize-javascript-6.0.0.tgz}
+    name: serialize-javascript
+    version: 6.0.0
+    dependencies:
+      randombytes: npm.urbanic-inc.com/randombytes/2.1.0
+    dev: true
+
+  npm.urbanic-inc.com/set-blocking/2.0.0:
+    resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/set-blocking/-/set-blocking-2.0.0.tgz}
+    name: set-blocking
+    version: 2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/shallowequal/1.1.0:
+    resolution: {integrity: sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/shallowequal/-/shallowequal-1.1.0.tgz}
+    name: shallowequal
+    version: 1.1.0
+    dev: false
+
+  npm.urbanic-inc.com/shebang-command/2.0.0:
+    resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/shebang-command/-/shebang-command-2.0.0.tgz}
+    name: shebang-command
+    version: 2.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      shebang-regex: npm.urbanic-inc.com/shebang-regex/3.0.0
+    dev: false
+
+  npm.urbanic-inc.com/shebang-regex/3.0.0:
+    resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/shebang-regex/-/shebang-regex-3.0.0.tgz}
+    name: shebang-regex
+    version: 3.0.0
+    engines: {node: '>=8'}
+    dev: false
+
+  npm.urbanic-inc.com/signal-exit/3.0.7:
+    resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/signal-exit/-/signal-exit-3.0.7.tgz}
+    name: signal-exit
+    version: 3.0.7
+    dev: false
+
+  npm.urbanic-inc.com/source-map-js/1.0.2:
+    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/source-map-js/-/source-map-js-1.0.2.tgz}
+    name: source-map-js
+    version: 1.0.2
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  npm.urbanic-inc.com/source-map-support/0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/source-map-support/-/source-map-support-0.5.21.tgz}
+    name: source-map-support
+    version: 0.5.21
+    dependencies:
+      buffer-from: npm.urbanic-inc.com/buffer-from/1.1.2
+      source-map: npm.urbanic-inc.com/source-map/0.6.1
+    dev: true
+
+  npm.urbanic-inc.com/source-map/0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/source-map/-/source-map-0.6.1.tgz}
+    name: source-map
+    version: 0.6.1
+    engines: {node: '>=0.10.0'}
+
+  npm.urbanic-inc.com/speed-measure-webpack-plugin/1.5.0_webpack@5.75.0:
+    resolution: {integrity: sha512-Re0wX5CtM6gW7bZA64ONOfEPEhwbiSF/vz6e2GvadjuaPrQcHTQdRGsD8+BE7iUOysXH8tIenkPCQBEcspXsNg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/speed-measure-webpack-plugin/-/speed-measure-webpack-plugin-1.5.0.tgz}
+    id: npm.urbanic-inc.com/speed-measure-webpack-plugin/1.5.0
+    name: speed-measure-webpack-plugin
+    version: 1.5.0
+    engines: {node: '>=6.0.0'}
+    peerDependencies:
+      webpack: ^1 || ^2 || ^3 || ^4 || ^5
+    dependencies:
+      chalk: npm.urbanic-inc.com/chalk/4.1.2
+      webpack: npm.urbanic-inc.com/webpack/5.75.0
+    dev: true
+
+  npm.urbanic-inc.com/stackframe/1.3.4:
+    resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/stackframe/-/stackframe-1.3.4.tgz}
+    name: stackframe
+    version: 1.3.4
+    dev: false
+
+  npm.urbanic-inc.com/staged-components/1.1.3_react@18.2.0:
+    resolution: {integrity: sha512-9EIswzDqjwlEu+ymkV09TTlJfzSbKgEnNteUnZSTxkpMgr5Wx2CzzA9WcMFWBNCldqVPsHVnRGGrApduq2Se5A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/staged-components/-/staged-components-1.1.3.tgz}
+    id: npm.urbanic-inc.com/staged-components/1.1.3
+    name: staged-components
+    version: 1.1.3
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/string-width/1.0.2:
+    resolution: {integrity: sha512-0XsVpQLnVCXHJfyEs8tC0zpTVIr5PKKsQtkT29IwupnPTjtPmQ3xT/4yCREF9hYkV/3M3kzcUTSAZT6a6h81tw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/string-width/-/string-width-1.0.2.tgz}
+    name: string-width
+    version: 1.0.2
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      code-point-at: npm.urbanic-inc.com/code-point-at/1.1.0
+      is-fullwidth-code-point: npm.urbanic-inc.com/is-fullwidth-code-point/1.0.0
+      strip-ansi: npm.urbanic-inc.com/strip-ansi/3.0.1
+    dev: false
+
+  npm.urbanic-inc.com/string_decoder/1.1.1:
+    resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/string_decoder/-/string_decoder-1.1.1.tgz}
+    name: string_decoder
+    version: 1.1.1
+    dependencies:
+      safe-buffer: npm.urbanic-inc.com/safe-buffer/5.1.2
+    dev: false
+
+  npm.urbanic-inc.com/strip-ansi/3.0.1:
+    resolution: {integrity: sha512-VhumSSbBqDTP8p2ZLKj40UjBCV4+v8bUSEpUb4KjRgWk9pbqGF4REFj6KEagidb2f/M6AzC0EmFyDNGaw9OCzg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/strip-ansi/-/strip-ansi-3.0.1.tgz}
+    name: strip-ansi
+    version: 3.0.1
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      ansi-regex: npm.urbanic-inc.com/ansi-regex/2.1.1
+    dev: false
+
+  npm.urbanic-inc.com/style-unit/3.0.5:
+    resolution: {integrity: sha512-xL+kev1W1dPthdhpQqZs9Qk1zenQiHKyy9oy2/VasW4z6wi7m7qQvMe67foPsr99JSs0115X0TCN1ch1n0XqSw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/style-unit/-/style-unit-3.0.5.tgz}
+    name: style-unit
+    version: 3.0.5
+    dependencies:
+      '@babel/runtime': npm.urbanic-inc.com/@babel/runtime/7.20.6
+      universal-env: npm.urbanic-inc.com/universal-env/3.3.3
+    dev: false
+
+  npm.urbanic-inc.com/supports-color/5.5.0:
+    resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/supports-color/-/supports-color-5.5.0.tgz}
+    name: supports-color
+    version: 5.5.0
+    engines: {node: '>=4'}
+    dependencies:
+      has-flag: npm.urbanic-inc.com/has-flag/3.0.0
+    dev: false
+
+  npm.urbanic-inc.com/supports-color/7.2.0:
+    resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/supports-color/-/supports-color-7.2.0.tgz}
+    name: supports-color
+    version: 7.2.0
+    engines: {node: '>=8'}
+    dependencies:
+      has-flag: npm.urbanic-inc.com/has-flag/4.0.0
+
+  npm.urbanic-inc.com/supports-color/8.1.1:
+    resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/supports-color/-/supports-color-8.1.1.tgz}
+    name: supports-color
+    version: 8.1.1
+    engines: {node: '>=10'}
+    dependencies:
+      has-flag: npm.urbanic-inc.com/has-flag/4.0.0
+
+  npm.urbanic-inc.com/tapable/2.2.1:
+    resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/tapable/-/tapable-2.2.1.tgz}
+    name: tapable
+    version: 2.2.1
+    engines: {node: '>=6'}
+    dev: true
+
+  npm.urbanic-inc.com/temp/0.9.4:
+    resolution: {integrity: sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/temp/-/temp-0.9.4.tgz}
+    name: temp
+    version: 0.9.4
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      mkdirp: npm.urbanic-inc.com/mkdirp/0.5.6
+      rimraf: npm.urbanic-inc.com/rimraf/2.6.3
+    dev: false
+
+  npm.urbanic-inc.com/terser-webpack-plugin/5.3.6_webpack@5.75.0:
+    resolution: {integrity: sha512-kfLFk+PoLUQIbLmB1+PZDMRSZS99Mp+/MHqDNmMA6tOItzRt+Npe3E+fsMs5mfcM0wCtrrdU387UnV+vnSffXQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/terser-webpack-plugin/-/terser-webpack-plugin-5.3.6.tgz}
+    id: npm.urbanic-inc.com/terser-webpack-plugin/5.3.6
+    name: terser-webpack-plugin
+    version: 5.3.6
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
+      webpack: ^5.1.0
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
+    dependencies:
+      '@jridgewell/trace-mapping': npm.urbanic-inc.com/@jridgewell/trace-mapping/0.3.17
+      jest-worker: npm.urbanic-inc.com/jest-worker/27.5.1
+      schema-utils: npm.urbanic-inc.com/schema-utils/3.1.1
+      serialize-javascript: npm.urbanic-inc.com/serialize-javascript/6.0.0
+      terser: npm.urbanic-inc.com/terser/5.16.1
+      webpack: npm.urbanic-inc.com/webpack/5.75.0
+    dev: true
+
+  npm.urbanic-inc.com/terser/5.16.1:
+    resolution: {integrity: sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/terser/-/terser-5.16.1.tgz}
+    name: terser
+    version: 5.16.1
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/source-map': npm.urbanic-inc.com/@jridgewell/source-map/0.3.2
+      acorn: npm.urbanic-inc.com/acorn/8.8.1
+      commander: npm.urbanic-inc.com/commander/2.20.3
+      source-map-support: npm.urbanic-inc.com/source-map-support/0.5.21
+    dev: true
+
+  npm.urbanic-inc.com/to-fast-properties/2.0.0:
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz}
+    name: to-fast-properties
+    version: 2.0.0
+    engines: {node: '>=4'}
+    dev: false
+
+  npm.urbanic-inc.com/to-regex-range/5.0.1:
+    resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/to-regex-range/-/to-regex-range-5.0.1.tgz}
+    name: to-regex-range
+    version: 5.0.1
+    engines: {node: '>=8.0'}
+    dependencies:
+      is-number: npm.urbanic-inc.com/is-number/7.0.0
+    dev: false
+
+  npm.urbanic-inc.com/tslib/2.4.1:
+    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/tslib/-/tslib-2.4.1.tgz}
+    name: tslib
+    version: 2.4.1
+    dev: false
+
+  npm.urbanic-inc.com/universal-env/3.3.3:
+    resolution: {integrity: sha512-4ZyITvWhtcurCEA66Cb7jcd4zpEiAAo91wSwbEscbiu033pIsC2yjgT8LYyasFgsst6jZHD1gtVoSyYcL8oH1Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/universal-env/-/universal-env-3.3.3.tgz}
+    name: universal-env
+    version: 3.3.3
+    engines: {npm: '>=3.0.0'}
+    dependencies:
+      '@uni/env': npm.urbanic-inc.com/@uni/env/1.1.0
+    dev: false
+
+  npm.urbanic-inc.com/universalify/0.1.2:
+    resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/universalify/-/universalify-0.1.2.tgz}
+    name: universalify
+    version: 0.1.2
+    engines: {node: '>= 4.0.0'}
+    dev: false
+
+  npm.urbanic-inc.com/universalify/2.0.0:
+    resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/universalify/-/universalify-2.0.0.tgz}
+    name: universalify
+    version: 2.0.0
+    engines: {node: '>= 10.0.0'}
+    dev: false
+
+  npm.urbanic-inc.com/update-browserslist-db/1.0.10_browserslist@4.21.4:
+    resolution: {integrity: sha512-OztqDenkfFkbSG+tRxBeAnCVPckDBcvibKd35yDONx6OU8N7sqgwc7rCbkJ/WcYtVRZ4ba68d6byhC21GFh7sQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/update-browserslist-db/-/update-browserslist-db-1.0.10.tgz}
+    id: npm.urbanic-inc.com/update-browserslist-db/1.0.10
+    name: update-browserslist-db
+    version: 1.0.10
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+    dependencies:
+      browserslist: npm.urbanic-inc.com/browserslist/4.21.4
+      escalade: npm.urbanic-inc.com/escalade/3.1.1
+      picocolors: npm.urbanic-inc.com/picocolors/1.0.0
+    dev: true
+
+  npm.urbanic-inc.com/uri-js/4.4.1:
+    resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/uri-js/-/uri-js-4.4.1.tgz}
+    name: uri-js
+    version: 4.4.1
+    dependencies:
+      punycode: npm.urbanic-inc.com/punycode/2.1.1
+    dev: true
+
+  npm.urbanic-inc.com/use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz}
+    id: npm.urbanic-inc.com/use-sync-external-store/1.2.0
+    name: use-sync-external-store
+    version: 1.2.0
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: npm.urbanic-inc.com/react/18.2.0
+    dev: false
+
+  npm.urbanic-inc.com/util-deprecate/1.0.2:
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/util-deprecate/-/util-deprecate-1.0.2.tgz}
+    name: util-deprecate
+    version: 1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/watchpack/2.4.0:
+    resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/watchpack/-/watchpack-2.4.0.tgz}
+    name: watchpack
+    version: 2.4.0
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      glob-to-regexp: npm.urbanic-inc.com/glob-to-regexp/0.4.1
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+    dev: true
+
+  npm.urbanic-inc.com/webpack-sources/3.2.3:
+    resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/webpack-sources/-/webpack-sources-3.2.3.tgz}
+    name: webpack-sources
+    version: 3.2.3
+    engines: {node: '>=10.13.0'}
+    dev: true
+
+  npm.urbanic-inc.com/webpack/5.75.0:
+    resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/webpack/-/webpack-5.75.0.tgz}
+    name: webpack
+    version: 5.75.0
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    peerDependencies:
+      webpack-cli: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+    dependencies:
+      '@types/eslint-scope': npm.urbanic-inc.com/@types/eslint-scope/3.7.4
+      '@types/estree': npm.urbanic-inc.com/@types/estree/0.0.51
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/wasm-edit': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.1
+      acorn: npm.urbanic-inc.com/acorn/8.8.1
+      acorn-import-assertions: npm.urbanic-inc.com/acorn-import-assertions/1.8.0_acorn@8.8.1
+      browserslist: npm.urbanic-inc.com/browserslist/4.21.4
+      chrome-trace-event: npm.urbanic-inc.com/chrome-trace-event/1.0.3
+      enhanced-resolve: npm.urbanic-inc.com/enhanced-resolve/5.12.0
+      es-module-lexer: npm.urbanic-inc.com/es-module-lexer/0.9.3
+      eslint-scope: npm.urbanic-inc.com/eslint-scope/5.1.1
+      events: npm.urbanic-inc.com/events/3.3.0
+      glob-to-regexp: npm.urbanic-inc.com/glob-to-regexp/0.4.1
+      graceful-fs: npm.urbanic-inc.com/graceful-fs/4.2.10
+      json-parse-even-better-errors: npm.urbanic-inc.com/json-parse-even-better-errors/2.3.1
+      loader-runner: npm.urbanic-inc.com/loader-runner/4.3.0
+      mime-types: npm.urbanic-inc.com/mime-types/2.1.35
+      neo-async: npm.urbanic-inc.com/neo-async/2.6.2
+      schema-utils: npm.urbanic-inc.com/schema-utils/3.1.1
+      tapable: npm.urbanic-inc.com/tapable/2.2.1
+      terser-webpack-plugin: npm.urbanic-inc.com/terser-webpack-plugin/5.3.6_webpack@5.75.0
+      watchpack: npm.urbanic-inc.com/watchpack/2.4.0
+      webpack-sources: npm.urbanic-inc.com/webpack-sources/3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+    dev: true
+
+  npm.urbanic-inc.com/which/2.0.2:
+    resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/which/-/which-2.0.2.tgz}
+    name: which
+    version: 2.0.2
+    engines: {node: '>= 8'}
+    hasBin: true
+    dependencies:
+      isexe: npm.urbanic-inc.com/isexe/2.0.0
+    dev: false
+
+  npm.urbanic-inc.com/wide-align/1.1.5:
+    resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/wide-align/-/wide-align-1.1.5.tgz}
+    name: wide-align
+    version: 1.1.5
+    dependencies:
+      string-width: npm.urbanic-inc.com/string-width/1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/wrappy/1.0.2:
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/wrappy/-/wrappy-1.0.2.tgz}
+    name: wrappy
+    version: 1.0.2
+    dev: false
+
+  npm.urbanic-inc.com/yallist/4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/yallist/-/yallist-4.0.0.tgz}
+    name: yallist
+    version: 4.0.0
+    dev: false
+
+  npm.urbanic-inc.com/yocto-queue/0.1.0:
+    resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==, registry: https://npm.urbanic.cn/, tarball: https://npm.urbanic-inc.com/yocto-queue/-/yocto-queue-0.1.0.tgz}
+    name: yocto-queue
+    version: 0.1.0
+    engines: {node: '>=10'}
+    dev: false

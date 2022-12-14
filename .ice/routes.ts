@@ -1,0 +1,55 @@
+export default [
+  {
+    path: '',
+    load: () => import(/* webpackChunkName: "p_layout" */ '@/pages/layout'),
+    componentName: 'layout',
+    index: undefined,
+    id: 'layout',
+    exact: true,
+    exports: ["dataLoader","default","pageConfig"],
+    layout: true,
+    children: [{
+      path: 'about',
+      load: () => import(/* webpackChunkName: "p_about-layout" */ '@/pages/about/layout'),
+      componentName: 'about-layout',
+      index: undefined,
+      id: 'about/layout',
+      exact: true,
+      exports: ["dataLoader","default"],
+      layout: true,
+      children: [{
+        path: 'another',
+        load: () => import(/* webpackChunkName: "p_about-another" */ '@/pages/about/another'),
+        componentName: 'about-another',
+        index: undefined,
+        id: 'about/another',
+        exact: true,
+        exports: ["dataLoader","default"],
+      },{
+        path: '',
+        load: () => import(/* webpackChunkName: "p_about-index" */ '@/pages/about/index'),
+        componentName: 'about-index',
+        index: true,
+        id: 'about/index',
+        exact: true,
+        exports: ["dataLoader","default"],
+      },]
+    },{
+      path: '',
+      load: () => import(/* webpackChunkName: "p_index" */ '@/pages/index'),
+      componentName: 'index',
+      index: true,
+      id: 'index',
+      exact: true,
+      exports: ["dataLoader","default","pageConfig"],
+    },{
+      path: 'blog',
+      load: () => import(/* webpackChunkName: "p_blog" */ '@/pages/blog'),
+      componentName: 'blog',
+      index: undefined,
+      id: 'blog',
+      exact: true,
+      exports: ["default","pageConfig"],
+    },]
+  },
+];
